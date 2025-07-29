@@ -146,6 +146,8 @@ def maybe_generate_personas(prompts, config, llm):
         save_to_file(personas, "data/people.json")
     else:
         personas = load_json_data("data/people.json")
+        if not personas:
+            raise ValueError("Nie znaleziono pliku z personami. Upewnij się, że konfiguracja jest poprawna lub wygeneruj persony.")
     return personas
 
 def maybe_generate_extended_descriptions(prompts, config, personas, llm):
@@ -157,6 +159,9 @@ def maybe_generate_extended_descriptions(prompts, config, personas, llm):
         save_to_file(extended_personas, "data/people_extended.json")
     else:
         extended_personas = load_json_data("data/people_extended.json")
+        if not extended_personas:
+            raise ValueError("Nie znaleziono pliku z rozszerzonymi opisami person. Upewnij się, że konfiguracja jest poprawna lub wygeneruj rozszerzone opisy.")
+
     return extended_personas
 
 def maybe_generate_topics(prompts, config, extended_personas, llm):
@@ -168,6 +173,8 @@ def maybe_generate_topics(prompts, config, extended_personas, llm):
         save_to_file(topics, "data/topics.json")
     else:
         topics = load_json_data("data/topics.json")
+        if not topics:
+            raise ValueError("Nie znaleziono pliku z tematami. Upewnij się, że konfiguracja jest poprawna lub wygeneruj tematy.")
     return topics
 
 def maybe_generate_questions(prompts, config, extended_personas, topics, llm):
@@ -179,6 +186,26 @@ def maybe_generate_questions(prompts, config, extended_personas, topics, llm):
         save_to_file(questions, "data/questions.json")
     else:
         questions = load_json_data("data/questions.json")
+        if not questions:
+            raise ValueError("Nie znaleziono pliku z pytaniami. Upewnij się, że konfiguracja jest poprawna lub wygeneruj pytania.")
+    return questions
+
+def maybe_generate_answers(prompts, personas, config, questions, llm):
+    """Generuje odpowiedzi na pytania, jeśli jest to wymagane przez konfigurację."""
+    if config["answers"]:
+        answer_prompt = prompts["answers_prompt"]
+        descriptions = "\n".join(get_person(p) for p in personas)
+        template = PromptTemplate.from_template(answer_prompt)
+        parser = JsonOutputParser()
+        chain = template | llm
+        for question_id, item in tqdm(questions.items(), total=len(questions), desc="Generating answers"):
+            response = chain.invoke({"personas": descriptions, "question": item["question"]})
+            questions[question_id]["answers"] = response.content
+        save_to_file(questions, "data/answears.json")
+    else:
+        questions = load_json_data("data/answears.json")
+        if not questions:
+            raise ValueError("Nie znaleziono pliku z odpowiedziami. Upewnij się, że konfiguracja jest poprawna lub wygeneruj odpowiedzi.")
     return questions
 
 def main():
@@ -192,6 +219,7 @@ def main():
     extend_personas = maybe_generate_extended_descriptions(prompts, config, personas, llm)
     topics = maybe_generate_topics(prompts, config, extend_personas, llm)
     questions = maybe_generate_questions(prompts, config, extend_personas, topics, llm)
+    answers = maybe_generate_answers(prompts, personas, config, questions, llm)
 
 if __name__ == '__main__':
     main()

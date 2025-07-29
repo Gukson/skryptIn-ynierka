@@ -2,7 +2,7 @@
   "personas": false,
   "extended_descriptions": false,
   "topics": false,
-  "questions": true,
+  "questions": false,
   "answers": true,
   "preferences": true
 }
