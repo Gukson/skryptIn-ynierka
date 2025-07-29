@@ -3,6 +3,7 @@ import json
 import re
 from typing import List
 
+from tqdm import tqdm
 from dotenv import load_dotenv
 from langchain_deepseek import ChatDeepSeek
 from langchain_core.output_parsers import JsonOutputParser
@@ -55,15 +56,39 @@ def save_to_file(data: List[dict], filename: str):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
+def get_person(person, description_field="description"):
+    """Returns a string representation of a persona for prompt construction."""
+    return f'{person["persona"]}: {person[description_field]}'
+
+def extend_descriptions(people, llm: ChatDeepSeek, prompt):
+    """Extends the descriptions of personas using the LLM."""
+    prompt_template = PromptTemplate.from_template(prompt)
+    parser = JsonOutputParser()
+    chain = prompt_template | llm | parser
+    for i, person in tqdm(enumerate(people), total=len(people), desc="Extending descriptions"):
+        suffix = people[i+1:] if i+1 < len(people) else []
+        personas = people[:i] + suffix
+        all_descriptions = "\n".join(get_person(p) for p in personas)
+        current_description = get_person(person)
+        response = chain.invoke({"personas": all_descriptions, "current": current_description})
+        person["long_description"] = response["description"]
+    return people
+
 def main():
     api_key = load_api_key()
     prompts = load_prompts("prompts.json")
     llm = init_llm(api_key)
     prompt_text = prompts["initial_prompt"]
 
-    """Generate personas using the LLM and save them to a file."""
+    print("Generating personas...")
     personas = generate_personas(prompt_text, llm)
     save_to_file(personas, "data/people.json")
+
+
+    print("Extending descriptions...")
+    description_prompt = prompts["description_prompt"]
+    extended_personas = extend_descriptions(personas, llm, description_prompt)
+    save_to_file(extended_personas, "data/people_extended.json")
 
 if __name__ == '__main__':
     main()

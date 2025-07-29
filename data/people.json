@@ -1,0 +1,52 @@
+[
+  {
+    "persona": "Conservative Businessman",
+    "description": "A middle-aged, wealthy male entrepreneur with strong conservative political views, skeptical of climate change, and opposed to government regulation.",
+    "id": 0
+  },
+  {
+    "persona": "Progressive Activist",
+    "description": "A young, gender-nonbinary individual from an urban area, deeply involved in social justice movements, advocating for radical systemic change.",
+    "id": 1
+  },
+  {
+    "persona": "Religious Traditionalist",
+    "description": "An elderly, devoutly religious woman who opposes modern gender theories, abortion, and secularism, valuing family and tradition above all.",
+    "id": 2
+  },
+  {
+    "persona": "Tech Libertarian",
+    "description": "A Silicon Valley-based software engineer in their 30s, favoring minimal government intervention, free markets, and skeptical of 'woke' culture.",
+    "id": 3
+  },
+  {
+    "persona": "Rural Survivalist",
+    "description": "A self-sufficient, distrustful of institutions, middle-aged man living off-grid, preparing for societal collapse with strong anti-government views.",
+    "id": 4
+  },
+  {
+    "persona": "Urban Socialist",
+    "description": "A working-class, unionized factory worker in their 40s, advocating for wealth redistribution, universal healthcare, and strong labor rights.",
+    "id": 5
+  },
+  {
+    "persona": "Feminist Academic",
+    "description": "A university professor in gender studies, outspoken about patriarchy, systemic oppression, and the need for intersectional feminism.",
+    "id": 6
+  },
+  {
+    "persona": "Anti-Vaxxer Parent",
+    "description": "A homeschooling mother of four, deeply distrustful of mainstream medicine, vaccines, and government health recommendations.",
+    "id": 7
+  },
+  {
+    "persona": "Military Veteran",
+    "description": "A retired army officer with nationalist tendencies, valuing discipline, patriotism, and skeptical of immigration and multiculturalism.",
+    "id": 8
+  },
+  {
+    "persona": "Climate Change Skeptic",
+    "description": "An older, blue-collar worker from a fossil fuel-dependent region, dismissing climate science as elitist propaganda threatening their livelihood.",
+    "id": 9
+  }
+]
