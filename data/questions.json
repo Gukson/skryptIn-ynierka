@@ -1,0 +1,502 @@
+{
+  "0": {
+    "id": 0,
+    "topic": 0,
+    "question": "How do you believe reallocating police funds to social services like mental health programs and housing could address systemic issues like racial injustice and over-policing in marginalized communities?"
+  },
+  "1": {
+    "id": 1,
+    "topic": 0,
+    "question": "As a business owner, how concerned are you about potential increases in crime or property damage if police budgets are reduced, and what alternatives would you support for maintaining public safety?"
+  },
+  "2": {
+    "id": 2,
+    "topic": 0,
+    "question": "Do you believe defunding the police undermines traditional law and order, and how does this align with your religious values on morality and societal stability?"
+  },
+  "3": {
+    "id": 3,
+    "topic": 0,
+    "question": "From a libertarian perspective, should policing be decentralized or privatized instead of relying on government-funded law enforcement, and what role should technology play in this shift?"
+  },
+  "4": {
+    "id": 4,
+    "topic": 0,
+    "question": "As someone who distrusts elite institutions, do you see defunding the police as a genuine reform effort or another political agenda pushed by urban elites that may harm rural communities?"
+  },
+  "5": {
+    "id": 5,
+    "topic": 1,
+    "question": "How do you think UBI could address systemic inequalities faced by marginalized communities, such as LGBTQ+ individuals and people of color?"
+  },
+  "6": {
+    "id": 6,
+    "topic": 1,
+    "question": "As a business owner, do you believe UBI would reduce workforce participation or incentivize entrepreneurship by providing financial security?"
+  },
+  "7": {
+    "id": 7,
+    "topic": 1,
+    "question": "Do you see UBI as undermining traditional family structures by reducing reliance on community and faith-based support systems?"
+  },
+  "8": {
+    "id": 8,
+    "topic": 1,
+    "question": "Would you support UBI if it were funded through decentralized mechanisms like cryptocurrency, minimizing government control over distribution?"
+  },
+  "9": {
+    "id": 9,
+    "topic": 1,
+    "question": "Do you think UBI would benefit rural workers displaced by automation, or would it discourage them from seeking new job opportunities?"
+  },
+  "10": {
+    "id": 10,
+    "topic": 2,
+    "question": "How should society balance the rights of bodily autonomy for pregnant individuals with the moral concerns of those who view abortion as equivalent to taking a life?"
+  },
+  "11": {
+    "id": 11,
+    "topic": 2,
+    "question": "Do you believe government regulations on abortion infringe on personal freedoms, or are they necessary to uphold ethical standards?"
+  },
+  "12": {
+    "id": 12,
+    "topic": 2,
+    "question": "From a religious perspective, should secular laws allow abortion, or should they reflect traditional moral values that oppose it?"
+  },
+  "13": {
+    "id": 13,
+    "topic": 2,
+    "question": "Should access to abortion be treated as a private matter between individuals and doctors, free from government interference, similar to other medical decisions?"
+  },
+  "14": {
+    "id": 14,
+    "topic": 2,
+    "question": "Given economic disparities, should abortion rights be expanded to ensure equitable access for low-income individuals, or restricted to align with certain moral beliefs?"
+  },
+  "15": {
+    "id": 15,
+    "topic": 3,
+    "question": "How do you feel about policies like the Green New Deal, which aim to rapidly transition to renewable energy while addressing social inequalities? (Progressive Activist)"
+  },
+  "16": {
+    "id": 16,
+    "topic": 3,
+    "question": "Do you believe stricter environmental regulations on businesses will harm economic growth and job creation, or are they necessary for long-term sustainability? (Conservative Business Owner)"
+  },
+  "17": {
+    "id": 17,
+    "topic": 3,
+    "question": "Should religious institutions take a stronger stance on climate change as a moral issue, or is environmental policy outside their domain? (Religious Traditionalist)"
+  },
+  "18": {
+    "id": 18,
+    "topic": 3,
+    "question": "Would you support market-driven solutions like carbon credits and private-sector innovation over government-mandated emissions reductions? (Tech Libertarian)"
+  },
+  "19": {
+    "id": 19,
+    "topic": 3,
+    "question": "Do you think climate policies disproportionately hurt rural communities (e.g., restrictions on farming or fossil fuels) while benefiting urban elites? (Rural Populist)"
+  },
+  "20": {
+    "id": 20,
+    "topic": 4,
+    "question": "How do you reconcile the need for stricter gun control to reduce mass shootings with the Second Amendment rights that many Americans hold dear?"
+  },
+  "21": {
+    "id": 21,
+    "topic": 4,
+    "question": "Given the disproportionate impact of gun violence on marginalized communities, do you believe defunding the police should be paired with stricter gun laws to protect vulnerable populations?"
+  },
+  "22": {
+    "id": 22,
+    "topic": 4,
+    "question": "As a business owner, do you see gun control regulations as government overreach that infringes on personal freedoms, or as necessary measures to ensure public safety?"
+  },
+  "23": {
+    "id": 23,
+    "topic": 4,
+    "question": "How do you balance the right to self-defense with the moral responsibility to prevent gun violence, especially in light of religious teachings on preserving life?"
+  },
+  "24": {
+    "id": 24,
+    "topic": 4,
+    "question": "Do you believe that looser gun laws would empower rural communities to protect themselves, or would they lead to more violence in already struggling areas?"
+  },
+  "25": {
+    "id": 25,
+    "topic": 5,
+    "question": "How do you balance the need to hold public figures accountable for harmful speech with concerns about ideological intolerance and free speech suppression?"
+  },
+  "26": {
+    "id": 26,
+    "topic": 5,
+    "question": "Do you believe 'cancel culture' is an effective tool for social justice, or does it ultimately stifle open debate and harm marginalized voices?"
+  },
+  "27": {
+    "id": 27,
+    "topic": 5,
+    "question": "Should private companies (e.g., social media platforms) have the authority to deplatform individuals for controversial opinions, or does this violate free speech principles?"
+  },
+  "28": {
+    "id": 28,
+    "topic": 5,
+    "question": "Is 'cancel culture' a legitimate form of accountability in a democratic society, or does it represent mob rule and ideological enforcement?"
+  },
+  "29": {
+    "id": 29,
+    "topic": 5,
+    "question": "How do you distinguish between reasonable consequences for offensive behavior and unjustified 'cancellation' driven by political bias?"
+  },
+  "30": {
+    "id": 30,
+    "topic": 6,
+    "question": "How do you reconcile religious teachings with the legal recognition of same-sex marriage, and should religious institutions be compelled to perform such ceremonies?"
+  },
+  "31": {
+    "id": 31,
+    "topic": 6,
+    "question": "Do you believe that government recognition of same-sex marriage undermines traditional family structures, or is it a necessary step toward equality?"
+  },
+  "32": {
+    "id": 32,
+    "topic": 6,
+    "question": "From a libertarian perspective, should the government have any role in defining or restricting marriage, regardless of gender?"
+  },
+  "33": {
+    "id": 33,
+    "topic": 6,
+    "question": "How does your stance on same-sex marriage align with your views on economic policy—do you see it as a distraction from class issues or as an essential part of social justice?"
+  },
+  "34": {
+    "id": 34,
+    "topic": 6,
+    "question": "Given your concerns about cultural shifts, do you think opposition to same-sex marriage is more about preserving tradition or resisting perceived progressive overreach?"
+  },
+  "35": {
+    "id": 35,
+    "topic": 7,
+    "question": "How can cryptocurrency regulation ensure financial inclusion for marginalized communities while preventing fraud?"
+  },
+  "36": {
+    "id": 36,
+    "topic": 7,
+    "question": "Should the government impose strict regulations on cryptocurrencies to protect investors, or would that stifle innovation and free-market principles?"
+  },
+  "37": {
+    "id": 37,
+    "topic": 7,
+    "question": "Do you believe cryptocurrency undermines traditional moral and economic values, and should religious institutions take a stance against it?"
+  },
+  "38": {
+    "id": 38,
+    "topic": 7,
+    "question": "Would excessive government regulation of cryptocurrencies violate the principles of decentralization and personal freedom that the technology was built on?"
+  },
+  "39": {
+    "id": 39,
+    "topic": 7,
+    "question": "Given the distrust of big banks and elites, should rural and working-class communities embrace cryptocurrency as an alternative, or is it just another scam?"
+  },
+  "40": {
+    "id": 40,
+    "topic": 8,
+    "question": "How do you believe affirmative action helps address systemic inequalities faced by marginalized communities, particularly in education and employment?"
+  },
+  "41": {
+    "id": 41,
+    "topic": 8,
+    "question": "Do you think affirmative action policies unfairly disadvantage more qualified candidates in favor of diversity, and if so, how should hiring/admissions decisions be made instead?"
+  },
+  "42": {
+    "id": 42,
+    "topic": 8,
+    "question": "From a religious and moral standpoint, do you see affirmative action as a just way to correct historical wrongs, or does it conflict with principles of fairness and individual merit?"
+  },
+  "43": {
+    "id": 43,
+    "topic": 8,
+    "question": "Should affirmative action policies be replaced with race-neutral alternatives (e.g., class-based preferences) to avoid government overreach while still addressing inequality?"
+  },
+  "44": {
+    "id": 44,
+    "topic": 8,
+    "question": "Do you view affirmative action as a necessary tool for social justice, or do you see it as an example of excessive government intervention that stifles merit-based competition?"
+  },
+  "45": {
+    "id": 45,
+    "topic": 9,
+    "question": "How do you believe universal healthcare could address systemic inequalities in access to medical care, particularly for marginalized communities like LGBTQ+ individuals and people of color?"
+  },
+  "46": {
+    "id": 46,
+    "topic": 9,
+    "question": "Given your concerns about government overreach, how do you weigh the potential economic burden of universal healthcare against the benefits of a healthier workforce for businesses?"
+  },
+  "47": {
+    "id": 47,
+    "topic": 9,
+    "question": "Some argue that universal healthcare could reduce reliance on faith-based charities for medical needs. Do you see this as a positive development or a threat to community-driven support systems?"
+  },
+  "48": {
+    "id": 48,
+    "topic": 9,
+    "question": "As someone who values minimal government intervention, would you support a decentralized, market-driven alternative to universal healthcare (e.g., health savings accounts or blockchain-based systems)?"
+  },
+  "49": {
+    "id": 49,
+    "topic": 9,
+    "question": "Many rural hospitals struggle to stay open. Do you think universal healthcare would improve access to care in your community, or do you fear it would lead to longer wait times and bureaucracy?"
+  },
+  "50": {
+    "id": 50,
+    "topic": 10,
+    "question": "How do you reconcile the humanitarian needs of migrants with concerns about national security and job protection?"
+  },
+  "51": {
+    "id": 51,
+    "topic": 10,
+    "question": "Do you believe stricter border controls are necessary to protect domestic industries and workers, or do the economic benefits of immigration outweigh those concerns?"
+  },
+  "52": {
+    "id": 52,
+    "topic": 10,
+    "question": "From a moral or religious perspective, how should a nation balance its duty to help vulnerable migrants with its responsibility to enforce laws and maintain order?"
+  },
+  "53": {
+    "id": 53,
+    "topic": 10,
+    "question": "Should border policies prioritize free movement and economic efficiency (e.g., labor market flexibility) over sovereignty and cultural preservation?"
+  },
+  "54": {
+    "id": 54,
+    "topic": 10,
+    "question": "How do you weigh the potential risks of unchecked immigration (e.g., crime, resource strain) against the ethical obligation to provide refuge to those fleeing violence or poverty?"
+  },
+  "55": {
+    "id": 55,
+    "topic": 11,
+    "question": "How do you think teaching Critical Race Theory in schools could help students understand and combat systemic racism in America? (Progressive Activist)"
+  },
+  "56": {
+    "id": 56,
+    "topic": 11,
+    "question": "Do you believe that teaching CRT in schools unfairly portrays American history and institutions as inherently racist, potentially harming students' patriotism and national unity? (Conservative Business Owner)"
+  },
+  "57": {
+    "id": 57,
+    "topic": 11,
+    "question": "Should schools prioritize teaching traditional American values and historical narratives over frameworks like CRT, which some argue undermine religious and family-centered morals? (Religious Traditionalist)"
+  },
+  "58": {
+    "id": 58,
+    "topic": 11,
+    "question": "Do you see CRT in schools as government overreach into education, or do you think local communities should have full control over curriculum decisions? (Tech Libertarian)"
+  },
+  "59": {
+    "id": 59,
+    "topic": 11,
+    "question": "Given concerns about 'divisive' teachings, should CRT be banned from public schools to prevent further polarization, or is it necessary for an honest reckoning with racial injustice? (Anti-Woke Centrist)"
+  },
+  "60": {
+    "id": 60,
+    "topic": 12,
+    "question": "How can we ensure that transgender athletes are fully included in sports while addressing concerns about competitive fairness?"
+  },
+  "61": {
+    "id": 61,
+    "topic": 12,
+    "question": "Do you believe that allowing transgender athletes to compete based on gender identity undermines the integrity of women's sports?"
+  },
+  "62": {
+    "id": 62,
+    "topic": 12,
+    "question": "Should religious values play a role in determining whether transgender athletes can compete in gendered sports divisions?"
+  },
+  "63": {
+    "id": 63,
+    "topic": 12,
+    "question": "Would a decentralized, self-regulating sports model (e.g., private leagues setting their own rules) be the best solution for transgender participation in sports?"
+  },
+  "64": {
+    "id": 64,
+    "topic": 12,
+    "question": "Do you think elite institutions and sports organizations are pushing transgender inclusion in sports at the expense of fairness for female athletes?"
+  },
+  "65": {
+    "id": 65,
+    "topic": 13,
+    "question": "How do you justify taxing the wealthy at higher rates as a means of addressing systemic inequality, especially when wealth is often concentrated in historically privileged groups? (Progressive Activist)"
+  },
+  "66": {
+    "id": 66,
+    "topic": 13,
+    "question": "Do you believe higher taxes on the wealthy discourage entrepreneurship and investment, ultimately harming job creation and economic growth? (Conservative Business Owner)"
+  },
+  "67": {
+    "id": 67,
+    "topic": 13,
+    "question": "From a moral standpoint, do you think it is fair to impose higher taxes on the wealthy when many of them contribute significantly to charitable and faith-based causes? (Religious Traditionalist)"
+  },
+  "68": {
+    "id": 68,
+    "topic": 13,
+    "question": "Wouldn’t excessive taxation on high earners lead to capital flight and stifle innovation, especially in tech-driven industries? (Tech Libertarian)"
+  },
+  "69": {
+    "id": 69,
+    "topic": 13,
+    "question": "Do you think taxing the wealthy more heavily is a way to hold elites accountable, or does it risk hurting small businesses in rural areas? (Rural Populist)"
+  },
+  "70": {
+    "id": 70,
+    "topic": 14,
+    "question": "How do you think free college education would impact marginalized communities, and what additional policies should accompany it to ensure equity?"
+  },
+  "71": {
+    "id": 71,
+    "topic": 14,
+    "question": "Do you believe taxpayer-funded college education is a sustainable economic model, or would it discourage personal responsibility and fiscal discipline?"
+  },
+  "72": {
+    "id": 72,
+    "topic": 14,
+    "question": "Should religious institutions have a role in shaping higher education policy if college becomes publicly funded, or should they remain separate?"
+  },
+  "73": {
+    "id": 73,
+    "topic": 14,
+    "question": "Would a government-funded college system lead to excessive bureaucracy and reduced innovation in education, or could it be structured to preserve academic freedom?"
+  },
+  "74": {
+    "id": 74,
+    "topic": 14,
+    "question": "How would free college education benefit or harm rural communities, and should trade schools or vocational training be prioritized over traditional degrees?"
+  },
+  "75": {
+    "id": 75,
+    "topic": 15,
+    "question": "How do you feel about social media platforms removing content labeled as 'misinformation' or 'hate speech,' especially when it involves marginalized communities? Do you see this as necessary protection or overreach?"
+  },
+  "76": {
+    "id": 76,
+    "topic": 15,
+    "question": "Do you believe that social media censorship disproportionately targets conservative voices, or is it a necessary measure to prevent harmful content? How should platforms balance free speech with moderation?"
+  },
+  "77": {
+    "id": 77,
+    "topic": 15,
+    "question": "From a religious perspective, should social media companies have the authority to censor content that contradicts traditional moral values (e.g., LGBTQ+ advocacy)? Or does this violate freedom of expression?"
+  },
+  "78": {
+    "id": 78,
+    "topic": 15,
+    "question": "As someone who values free speech and minimal government intervention, do you think decentralized platforms (e.g., blockchain-based social media) are the solution to censorship concerns? Why or why not?"
+  },
+  "79": {
+    "id": 79,
+    "topic": 15,
+    "question": "Do you trust tech companies to fairly moderate political content, or do you see their censorship efforts as biased against working-class and rural viewpoints? Should governments regulate this?"
+  },
+  "80": {
+    "id": 80,
+    "topic": 16,
+    "question": "As a Progressive Activist, how do you weigh the potential of nuclear energy to reduce carbon emissions against concerns about radioactive waste and environmental justice for communities near nuclear facilities?"
+  },
+  "81": {
+    "id": 81,
+    "topic": 16,
+    "question": "As a Conservative Business Owner, do you see nuclear energy as a viable free-market solution to energy independence, or do regulatory and liability concerns make it too risky for private investment?"
+  },
+  "82": {
+    "id": 82,
+    "topic": 16,
+    "question": "As a Religious Traditionalist, do you believe nuclear energy aligns with the ethical responsibility to steward the Earth, or do the risks of accidents and long-term waste storage conflict with moral obligations to future generations?"
+  },
+  "83": {
+    "id": 83,
+    "topic": 16,
+    "question": "As a Tech Libertarian, should nuclear energy development be driven by private innovation with minimal government oversight, or do the risks require strict regulatory frameworks to ensure safety?"
+  },
+  "84": {
+    "id": 84,
+    "topic": 16,
+    "question": "As a Rural Populist, would you support nuclear power plants in your area as a source of jobs and energy independence, or do you distrust corporate and government assurances about safety?"
+  },
+  "85": {
+    "id": 85,
+    "topic": 17,
+    "question": "How can patriotism be reconciled with acknowledging the historical harms caused by nationalism, such as colonialism or systemic discrimination?"
+  },
+  "86": {
+    "id": 86,
+    "topic": 17,
+    "question": "Should businesses be expected to promote patriotic values, or does that risk alienating diverse customers and employees?"
+  },
+  "87": {
+    "id": 87,
+    "topic": 17,
+    "question": "Does true patriotism require adherence to religious and traditional values, or can secular and progressive interpretations coexist?"
+  },
+  "88": {
+    "id": 88,
+    "topic": 17,
+    "question": "Is patriotism compatible with a libertarian belief in minimal government, or does it inherently require state-driven narratives?"
+  },
+  "89": {
+    "id": 89,
+    "topic": 17,
+    "question": "Can patriotism be inclusive of marginalized communities while still maintaining a strong national identity, or does it inevitably exclude some groups?"
+  },
+  "90": {
+    "id": 90,
+    "topic": 18,
+    "question": "How do you think feminism has impacted traditional gender roles in modern society, and do you see this as a positive or negative change? (Target: Religious Traditionalist)"
+  },
+  "91": {
+    "id": 91,
+    "topic": 18,
+    "question": "Many argue that corporate policies promoting gender equality (e.g., diversity quotas) are necessary, while others see them as government overreach. Where do you stand? (Target: Conservative Business Owner)"
+  },
+  "92": {
+    "id": 92,
+    "topic": 18,
+    "question": "Some believe that feminism has gone too far in challenging gender norms, while others argue it hasn't gone far enough. What’s your take? (Target: Anti-Woke Centrist)"
+  },
+  "93": {
+    "id": 93,
+    "topic": 18,
+    "question": "How do you reconcile feminist critiques of patriarchy with the pushback from those who see traditional gender roles as natural or beneficial? (Target: Feminist Scholar)"
+  },
+  "94": {
+    "id": 94,
+    "topic": 18,
+    "question": "Do you think feminism has helped or harmed working-class men, particularly in rural areas where traditional masculinity is highly valued? (Target: Rural Populist)"
+  },
+  "95": {
+    "id": 95,
+    "topic": 19,
+    "question": "How do you reconcile the need for public health safety with concerns about government overreach in enforcing vaccine mandates? (For Conservative Business Owner and Tech Libertarian)"
+  },
+  "96": {
+    "id": 96,
+    "topic": 19,
+    "question": "Do you believe vaccine mandates disproportionately impact marginalized communities, and how should policymakers address these concerns? (For Progressive Activist and Urban Socialist)"
+  },
+  "97": {
+    "id": 97,
+    "topic": 19,
+    "question": "From a religious or moral standpoint, should individuals have the right to refuse vaccines based on personal beliefs, even during a public health crisis? (For Religious Traditionalist and Feminist Scholar)"
+  },
+  "98": {
+    "id": 98,
+    "topic": 19,
+    "question": "Given your distrust of elites and institutions, how do you weigh the risks of vaccine mandates against the benefits of herd immunity? (For Rural Populist and Climate Change Skeptic)"
+  },
+  "99": {
+    "id": 99,
+    "topic": 19,
+    "question": "As someone who values national security and discipline, do you see vaccine mandates as a necessary measure for collective safety or an infringement on personal freedoms? (For Military Veteran and Anti-Woke Centrist)"
+  }
+}

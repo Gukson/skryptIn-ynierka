@@ -1,7 +1,8 @@
 {
   "personas": false,
   "extended_descriptions": false,
-  "topics": true,
+  "topics": false,
   "questions": true,
-  "answers": true
+  "answers": true,
+  "preferences": true
 }

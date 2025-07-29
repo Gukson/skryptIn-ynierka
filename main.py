@@ -11,13 +11,15 @@ from langchain_core.prompts.prompt import PromptTemplate
 from pydantic import BaseModel, Field
 
 load_dotenv()
-api_key = os.getenv("DEEPSEEK_API_KEY") #load api key from .env file
+api_key = os.getenv("DEEPSEEK_API_KEY") #wczytanie klucza API z pliku .env
 
 class Person(BaseModel):
+    """Model reprezentujący personę."""
     persona: str = Field(description="type of the character")
     description: str = Field(description="description of the character")
 
 def load_api_key() -> str:
+    """Wczytuje klucz API z pliku .env."""
     load_dotenv()
     return os.getenv("DEEPSEEK_API_KEY")
 
@@ -30,6 +32,7 @@ def load_config() -> dict:
         return json.load(f)
 
 def load_prompts(file_path: str) -> dict:
+    """Wczytuje prompty z pliku JSON."""
     with open(file_path, 'r') as file:
         return json.load(file)
 
@@ -39,6 +42,7 @@ def load_json_data(file_path: str) -> List[dict]:
         return json.load(f)
 
 def init_llm(api_key: str) -> ChatDeepSeek:
+    """Inicjalizuje model LLM DeepSeek Chat."""
     return ChatDeepSeek(model="deepseek-chat", api_key=api_key)
 
 def extract_json_list(text: str) -> str:
@@ -61,11 +65,13 @@ def parse_personas(response_text: str) -> List[dict]:
 
 
 def generate_personas(prompt: str, llm: ChatDeepSeek) -> List[dict]:
+    """Generuje persony przy użyciu LLM."""
     response = llm.invoke(prompt)
     return parse_personas(response.content)
 
 
-def save_to_file(data: List[dict], filename: str):
+def save_to_file(data, filename: str):
+    """Zapisuje dane do pliku JSON."""
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -88,6 +94,7 @@ def extend_descriptions(people, llm: ChatDeepSeek, prompt) -> List[dict]:
     return people
 
 def generate_topics(people, llm: ChatDeepSeek, prompt: str) -> List[dict]:
+    """Generuje tematy na podstawie person przy użyciu LLM."""
     descriptions = "\n".join(get_person(p) for p in people)
     response = llm.invoke(prompt.format(personas=descriptions))
     match = re.search(r"```json\n([\s\S]+?)```", response.content)
@@ -99,24 +106,50 @@ def generate_topics(people, llm: ChatDeepSeek, prompt: str) -> List[dict]:
     data = json.loads(json_block)
     return data
 
-def main():
-    """Główna funkcja programu."""
-    api_key = load_api_key()
-    prompts = load_prompts("prompts.json")
-    llm = init_llm(api_key)
-    config = load_config()
+def generate_questions(people, topics, llm: ChatDeepSeek, prompt: str) -> dict:
+    """Generuje pytania na podstawie tematów i person przy użyciu LLM."""
+    all_questions = {}
+    index = 0
+    descriptions = "\n".join(get_person(p) for p in people)
+    template = PromptTemplate.from_template(prompt)
+    chain = template | llm
 
-    # Jeśli ustawione na True – generuj persony od zera, inaczej wczytaj z pliku
+    for topic_id, topic in tqdm(enumerate(topics), total=len(topics), desc="Generating questions"):
+        response = chain.invoke({
+            "personas": descriptions,
+            "topic": topic["topic"],
+            "description": topic["description"]
+        })
+
+        match = re.search(r"```json\n([\s\S]+?)```", response.content)
+        if not match:
+            raise ValueError("Nie znaleziono bloku kodu z listą JSON.")
+
+        json_block = match.group(1).strip()
+        questions = json.loads(json_block)
+
+        for q in questions:
+            all_questions[index] = {
+                "id": index,  # <–– dodajemy ID wewnątrz
+                "topic": topic_id,
+                "question": q["question"]
+            }
+            index += 1
+
+    return all_questions
+
+def maybe_generate_personas(prompts, config, llm):
+    """Generuje persony, jeśli jest to wymagane przez konfigurację."""
     if config["personas"]:
         print("Tworzenie person...")
-        prompt = prompts["initial_prompt"]
-        personas = generate_personas(prompt, llm)
+        personas = generate_personas(prompts["initial_prompt"], llm)
         save_to_file(personas, "data/people.json")
     else:
         personas = load_json_data("data/people.json")
+    return personas
 
-
-    # Jeśli extended_descriptions jest ustawione na True, rozszerz opisy person, inaczej wczytaj z pliku
+def maybe_generate_extended_descriptions(prompts, config, personas, llm):
+    """Rozszerza opisy person, jeśli jest to wymagane przez konfigurację."""
     if config["extended_descriptions"]:
         print("Rozszerzanie opisów...")
         description_prompt = prompts["description_prompt"]
@@ -124,8 +157,10 @@ def main():
         save_to_file(extended_personas, "data/people_extended.json")
     else:
         extended_personas = load_json_data("data/people_extended.json")
+    return extended_personas
 
-    # Jeśli topics jest ustawione na True, generuj tematy, inaczej wczytaj z pliku
+def maybe_generate_topics(prompts, config, extended_personas, llm):
+    """Generuje tematy, jeśli jest to wymagane przez konfigurację."""
     if config["topics"]:
         print("Generowanie tematów...")
         topic_prompt = prompts["topics_prompt"]
@@ -133,6 +168,30 @@ def main():
         save_to_file(topics, "data/topics.json")
     else:
         topics = load_json_data("data/topics.json")
+    return topics
+
+def maybe_generate_questions(prompts, config, extended_personas, topics, llm):
+    """Generuje pytania, jeśli jest to wymagane przez konfigurację."""
+    if config["questions"]:
+        print("Generowanie pytań...")
+        question_prompt = prompts["questions_prompt"]
+        questions = generate_questions(extended_personas, topics, llm, question_prompt)
+        save_to_file(questions, "data/questions.json")
+    else:
+        questions = load_json_data("data/questions.json")
+    return questions
+
+def main():
+    """Główna funkcja programu."""
+    api_key = load_api_key()
+    prompts = load_prompts("prompts.json")
+    llm = init_llm(api_key)
+    config = load_config()
+
+    personas = maybe_generate_personas(prompts, config, llm)
+    extend_personas = maybe_generate_extended_descriptions(prompts, config, personas, llm)
+    topics = maybe_generate_topics(prompts, config, extend_personas, llm)
+    questions = maybe_generate_questions(prompts, config, extend_personas, topics, llm)
 
 if __name__ == '__main__':
     main()
