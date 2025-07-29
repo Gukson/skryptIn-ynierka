@@ -25,6 +25,11 @@ def load_prompts(file_path: str) -> dict:
     with open(file_path, 'r') as file:
         return json.load(file)
 
+def load_json_data(file_path: str) -> List[dict]:
+    """Loads personas from a JSON file."""
+    with open(file_path, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
 def init_llm(api_key: str) -> ChatDeepSeek:
     return ChatDeepSeek(model="deepseek-chat", api_key=api_key)
 
@@ -60,7 +65,7 @@ def get_person(person, description_field="description"):
     """Returns a string representation of a persona for prompt construction."""
     return f'{person["persona"]}: {person[description_field]}'
 
-def extend_descriptions(people, llm: ChatDeepSeek, prompt):
+def extend_descriptions(people, llm: ChatDeepSeek, prompt) -> List[dict]:
     """Extends the descriptions of personas using the LLM."""
     prompt_template = PromptTemplate.from_template(prompt)
     parser = JsonOutputParser()
@@ -73,6 +78,18 @@ def extend_descriptions(people, llm: ChatDeepSeek, prompt):
         response = chain.invoke({"personas": all_descriptions, "current": current_description})
         person["long_description"] = response["description"]
     return people
+
+def generate_topics(people, llm: ChatDeepSeek, prompt: str) -> List[dict]:
+    descriptions = "\n".join(get_person(p) for p in people)
+    response = llm.invoke(prompt.format(personas=descriptions))
+    match = re.search(r"```json\n([\s\S]+?)```", response.content)
+    if not match:
+        raise ValueError("Nie znaleziono bloku kodu z listą JSON.")
+
+    json_block = match.group(1).strip()
+
+    data = json.loads(json_block)
+    return data
 
 def main():
     api_key = load_api_key()
@@ -90,5 +107,10 @@ def main():
     extended_personas = extend_descriptions(personas, llm, description_prompt)
     save_to_file(extended_personas, "data/people_extended.json")
 
+
+    print("Generating topics...")
+    topic_prompt = prompts["topics_prompt"]
+    topics = generate_topics(extended_personas, llm, topic_prompt)
+    save_to_file(topics, "data/topics.json")
 if __name__ == '__main__':
     main()

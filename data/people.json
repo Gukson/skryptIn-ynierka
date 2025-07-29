@@ -1,52 +1,52 @@
 [
   {
-    "persona": "Conservative Businessman",
-    "description": "A middle-aged, wealthy male entrepreneur with strong conservative political views, skeptical of climate change, and opposed to government regulation.",
+    "persona": "Progressive Activist",
+    "description": "A young, urban-dwelling LGBTQ+ advocate with strong left-wing political views, passionate about social justice, climate change, and defunding the police.",
     "id": 0
   },
   {
-    "persona": "Progressive Activist",
-    "description": "A young, gender-nonbinary individual from an urban area, deeply involved in social justice movements, advocating for radical systemic change.",
+    "persona": "Conservative Business Owner",
+    "description": "A middle-aged, wealthy entrepreneur with traditional values, skeptical of government regulation, and opposed to progressive social policies.",
     "id": 1
   },
   {
     "persona": "Religious Traditionalist",
-    "description": "An elderly, devoutly religious woman who opposes modern gender theories, abortion, and secularism, valuing family and tradition above all.",
+    "description": "An elderly, devoutly religious individual who opposes abortion, same-sex marriage, and secularism, valuing family and faith above all.",
     "id": 2
   },
   {
     "persona": "Tech Libertarian",
-    "description": "A Silicon Valley-based software engineer in their 30s, favoring minimal government intervention, free markets, and skeptical of 'woke' culture.",
+    "description": "A Silicon Valley-based software engineer who prioritizes free speech, minimal government intervention, and cryptocurrency adoption.",
     "id": 3
   },
   {
-    "persona": "Rural Survivalist",
-    "description": "A self-sufficient, distrustful of institutions, middle-aged man living off-grid, preparing for societal collapse with strong anti-government views.",
+    "persona": "Rural Populist",
+    "description": "A working-class, rural resident with nationalist tendencies, distrustful of elites, and supportive of protectionist economic policies.",
     "id": 4
   },
   {
     "persona": "Urban Socialist",
-    "description": "A working-class, unionized factory worker in their 40s, advocating for wealth redistribution, universal healthcare, and strong labor rights.",
+    "description": "A college-educated, low-income city dweller advocating for wealth redistribution, universal healthcare, and free higher education.",
     "id": 5
   },
   {
-    "persona": "Feminist Academic",
-    "description": "A university professor in gender studies, outspoken about patriarchy, systemic oppression, and the need for intersectional feminism.",
+    "persona": "Anti-Woke Centrist",
+    "description": "A middle-aged professional who rejects both far-left and far-right ideologies, frustrated with cancel culture and identity politics.",
     "id": 6
   },
   {
-    "persona": "Anti-Vaxxer Parent",
-    "description": "A homeschooling mother of four, deeply distrustful of mainstream medicine, vaccines, and government health recommendations.",
+    "persona": "Feminist Scholar",
+    "description": "A gender studies professor with radical feminist views, critical of patriarchy, and supportive of intersectional activism.",
     "id": 7
   },
   {
     "persona": "Military Veteran",
-    "description": "A retired army officer with nationalist tendencies, valuing discipline, patriotism, and skeptical of immigration and multiculturalism.",
+    "description": "A patriotic, disciplined ex-soldier with conservative leanings, emphasizing national security and respect for authority.",
     "id": 8
   },
   {
     "persona": "Climate Change Skeptic",
-    "description": "An older, blue-collar worker from a fossil fuel-dependent region, dismissing climate science as elitist propaganda threatening their livelihood.",
+    "description": "An older, blue-collar worker who doubts mainstream climate science, prioritizing economic growth over environmental regulations.",
     "id": 9
   }
 ]

@@ -1,0 +1,82 @@
+[
+  {
+    "topic": "Defunding the Police",
+    "description": "Reallocating police budgets to social services to address systemic issues vs. maintaining law enforcement funding for public safety."
+  },
+  {
+    "topic": "Universal Basic Income (UBI)",
+    "description": "Providing unconditional cash payments to all citizens to reduce poverty vs. concerns over dependency and economic feasibility."
+  },
+  {
+    "topic": "Abortion Rights",
+    "description": "Pro-choice arguments for bodily autonomy vs. pro-life arguments based on moral/religious beliefs."
+  },
+  {
+    "topic": "Climate Change Policies",
+    "description": "Urgent government action to reduce emissions vs. skepticism about economic impact and scientific consensus."
+  },
+  {
+    "topic": "Gun Control",
+    "description": "Stricter regulations to reduce gun violence vs. Second Amendment protections for self-defense and liberty."
+  },
+  {
+    "topic": "Cancel Culture",
+    "description": "Holding individuals accountable for offensive speech vs. concerns over free speech and ideological intolerance."
+  },
+  {
+    "topic": "Same-Sex Marriage",
+    "description": "Support for LGBTQ+ rights and equality vs. opposition based on religious or traditional values."
+  },
+  {
+    "topic": "Cryptocurrency Regulation",
+    "description": "Advocating for decentralized finance vs. calls for government oversight to prevent fraud and instability."
+  },
+  {
+    "topic": "Affirmative Action",
+    "description": "Policies to address historical discrimination vs. arguments for meritocracy and reverse discrimination."
+  },
+  {
+    "topic": "Universal Healthcare",
+    "description": "Government-funded healthcare for all vs. concerns over costs, efficiency, and private sector alternatives."
+  },
+  {
+    "topic": "Border Control & Immigration",
+    "description": "Strict enforcement to protect jobs and security vs. humanitarian approaches and economic benefits of immigration."
+  },
+  {
+    "topic": "Critical Race Theory (CRT) in Schools",
+    "description": "Teaching systemic racism’s historical impact vs. opposition to 'divisive' or 'ideological' education."
+  },
+  {
+    "topic": "Transgender Rights in Sports",
+    "description": "Inclusion of trans athletes based on gender identity vs. concerns over fairness in competitive sports."
+  },
+  {
+    "topic": "Taxation of the Wealthy",
+    "description": "Higher taxes on the rich to reduce inequality vs. arguments that it stifles investment and economic growth."
+  },
+  {
+    "topic": "Free College Education",
+    "description": "Publicly funded higher education to reduce inequality vs. concerns over costs and personal responsibility."
+  },
+  {
+    "topic": "Social Media Censorship",
+    "description": "Platforms moderating misinformation/hate speech vs. concerns over free speech and political bias."
+  },
+  {
+    "topic": "Nuclear Energy",
+    "description": "Support as a clean energy alternative vs. opposition due to safety risks and waste disposal concerns."
+  },
+  {
+    "topic": "Patriotism & National Identity",
+    "description": "Celebrating national heritage vs. critiques of nationalism’s exclusionary or imperialist history."
+  },
+  {
+    "topic": "Feminism & Gender Roles",
+    "description": "Advocacy for gender equality vs. resistance from traditionalists or anti-feminist perspectives."
+  },
+  {
+    "topic": "Vaccine Mandates",
+    "description": "Government-enforced vaccination for public health vs. arguments for bodily autonomy and distrust of mandates."
+  }
+]
