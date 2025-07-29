@@ -21,12 +21,20 @@ def load_api_key() -> str:
     load_dotenv()
     return os.getenv("DEEPSEEK_API_KEY")
 
+def load_config() -> dict:
+    """Wczytywanie konfiguracji z pliku JSON."""
+    config_path = "config.json"
+    if not os.path.exists(config_path):
+        raise FileNotFoundError(f"Configuration file {config_path} not found.")
+    with open(config_path, 'r') as f:
+        return json.load(f)
+
 def load_prompts(file_path: str) -> dict:
     with open(file_path, 'r') as file:
         return json.load(file)
 
 def load_json_data(file_path: str) -> List[dict]:
-    """Loads personas from a JSON file."""
+    """Wczytuje dane JSON z pliku."""
     with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
@@ -34,12 +42,12 @@ def init_llm(api_key: str) -> ChatDeepSeek:
     return ChatDeepSeek(model="deepseek-chat", api_key=api_key)
 
 def extract_json_list(text: str) -> str:
-    """Extracts the first JSON array from the response text."""
+    """Wyciąga listę JSON z tekstu."""
     match = re.search(r'\[[\s\S]*?\]', text)
     return match.group(0) if match else "[]"
 
 def parse_personas(response_text: str) -> List[dict]:
-    """Parses response text into a list of persona dictionaries."""
+    """Analizuje tekst odpowiedzi w celu wyodrębnienia person jako listy słowników."""
     parser = JsonOutputParser(pydantic_object=Person)
     json_array = extract_json_list(response_text)
     lines = json_array.strip().split("\n")[1:-1]
@@ -62,11 +70,11 @@ def save_to_file(data: List[dict], filename: str):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 def get_person(person, description_field="description"):
-    """Returns a string representation of a persona for prompt construction."""
+    """Zwraca reprezentację ciągu znaków persony do tworzenia monitu."""
     return f'{person["persona"]}: {person[description_field]}'
 
 def extend_descriptions(people, llm: ChatDeepSeek, prompt) -> List[dict]:
-    """Extends the descriptions of personas using the LLM."""
+    """Rozszerza opisy person przy użyciu LLM."""
     prompt_template = PromptTemplate.from_template(prompt)
     parser = JsonOutputParser()
     chain = prompt_template | llm | parser
@@ -92,25 +100,39 @@ def generate_topics(people, llm: ChatDeepSeek, prompt: str) -> List[dict]:
     return data
 
 def main():
+    """Główna funkcja programu."""
     api_key = load_api_key()
     prompts = load_prompts("prompts.json")
     llm = init_llm(api_key)
-    prompt_text = prompts["initial_prompt"]
+    config = load_config()
 
-    print("Generating personas...")
-    personas = generate_personas(prompt_text, llm)
-    save_to_file(personas, "data/people.json")
+    # Jeśli ustawione na True – generuj persony od zera, inaczej wczytaj z pliku
+    if config["personas"]:
+        print("Tworzenie person...")
+        prompt = prompts["initial_prompt"]
+        personas = generate_personas(prompt, llm)
+        save_to_file(personas, "data/people.json")
+    else:
+        personas = load_json_data("data/people.json")
 
 
-    print("Extending descriptions...")
-    description_prompt = prompts["description_prompt"]
-    extended_personas = extend_descriptions(personas, llm, description_prompt)
-    save_to_file(extended_personas, "data/people_extended.json")
+    # Jeśli extended_descriptions jest ustawione na True, rozszerz opisy person, inaczej wczytaj z pliku
+    if config["extended_descriptions"]:
+        print("Rozszerzanie opisów...")
+        description_prompt = prompts["description_prompt"]
+        extended_personas = extend_descriptions(personas, llm, description_prompt)
+        save_to_file(extended_personas, "data/people_extended.json")
+    else:
+        extended_personas = load_json_data("data/people_extended.json")
 
+    # Jeśli topics jest ustawione na True, generuj tematy, inaczej wczytaj z pliku
+    if config["topics"]:
+        print("Generowanie tematów...")
+        topic_prompt = prompts["topics_prompt"]
+        topics = generate_topics(extended_personas, llm, topic_prompt)
+        save_to_file(topics, "data/topics.json")
+    else:
+        topics = load_json_data("data/topics.json")
 
-    print("Generating topics...")
-    topic_prompt = prompts["topics_prompt"]
-    topics = generate_topics(extended_personas, llm, topic_prompt)
-    save_to_file(topics, "data/topics.json")
 if __name__ == '__main__':
     main()
