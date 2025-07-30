@@ -3,6 +3,6 @@
   "extended_descriptions": false,
   "topics": false,
   "questions": false,
-  "answers": true,
+  "answers": false,
   "preferences": true
 }

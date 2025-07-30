@@ -36,7 +36,7 @@ def load_prompts(file_path: str) -> dict:
     with open(file_path, 'r') as file:
         return json.load(file)
 
-def load_json_data(file_path: str) -> List[dict]:
+def load_json_data(file_path: str) -> dict:
     """Wczytuje dane JSON z pliku."""
     with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
@@ -138,6 +138,54 @@ def generate_questions(people, topics, llm: ChatDeepSeek, prompt: str) -> dict:
 
     return all_questions
 
+def generate_answers(prompt, personas, questions, llm):
+    """Generuje odpowiedzi na pytania przy użyciu LLM."""
+    descriptions = "\n".join(get_person(p) for p in personas)
+    template = PromptTemplate.from_template(prompt)
+    chain = template | llm
+    for question_id, item in tqdm(questions.items(), total=len(questions), desc="Generating answers"):
+        response = chain.invoke({"personas": descriptions, "question": item["question"]})
+        questions[question_id]["answers"] = response.content
+    return questions
+
+def parse_answers(answers) -> dict:
+    """Parsuje odpowiedzi z formatu JSON do słownika."""
+    parser = JsonOutputParser()
+    for id_, item in tqdm(answers.items()):
+        raw_output = item["answers"]
+        try:
+            out = parser.invoke(raw_output)
+            answers[id_]["answer1"] = out["answer1"]
+            answers[id_]["answer2"] = out["answer2"]
+            del answers[id_]["answers"]
+        except Exception:
+            output = re.findall(r'"answer\d+":\s*"(.*?)"(?:,?\s*|\s*$)', raw_output)
+            if len(output) != 2:
+                print(id_)
+                print(raw_output)
+                print(output)
+            for i, out in enumerate(output):
+                answers[id_][f"answer{i + 1}"] = out
+    return answers
+
+def generate_preferences(people, answers, prompt, llm: ChatDeepSeek) -> List[dict]:
+    """Generuje preferencje na podstawie person i odpowiedzi przy użyciu LLM."""
+    prompt = PromptTemplate.from_template(prompt)
+    chain = prompt | llm
+    responses = []
+    for _, item in tqdm(answers.items(), total=len(answers), desc="Generating preferences"):
+        for person in people:
+            curr_item = {}
+            description = get_person(person)
+            response = chain.invoke(
+                {"persona": description, "question": item["question"], "answer1": item["answer1"],
+                 "answer2": item["answer2"]})
+            curr_item["person"] = person
+            curr_item["question"] = item
+            curr_item["response"] = response.content
+            responses.append(curr_item)
+    return responses
+
 def maybe_generate_personas(prompts, config, llm):
     """Generuje persony, jeśli jest to wymagane przez konfigurację."""
     if config["personas"]:
@@ -194,19 +242,28 @@ def maybe_generate_answers(prompts, personas, config, questions, llm):
     """Generuje odpowiedzi na pytania, jeśli jest to wymagane przez konfigurację."""
     if config["answers"]:
         answer_prompt = prompts["answers_prompt"]
-        descriptions = "\n".join(get_person(p) for p in personas)
-        template = PromptTemplate.from_template(answer_prompt)
-        parser = JsonOutputParser()
-        chain = template | llm
-        for question_id, item in tqdm(questions.items(), total=len(questions), desc="Generating answers"):
-            response = chain.invoke({"personas": descriptions, "question": item["question"]})
-            questions[question_id]["answers"] = response.content
-        save_to_file(questions, "data/answears.json")
+        answers = generate_answers(answer_prompt, personas, questions, llm)
+        parsed_answers = parse_answers(answers)
+        save_to_file(parsed_answers, "data/answears.json")
     else:
-        questions = load_json_data("data/answears.json")
+        parsed_answers = load_json_data("data/answears.json")
         if not questions:
             raise ValueError("Nie znaleziono pliku z odpowiedziami. Upewnij się, że konfiguracja jest poprawna lub wygeneruj odpowiedzi.")
-    return questions
+    return parsed_answers
+
+def maybe_generate_preferences(personas, answers, prompts, config, llm):
+    """Generuje preferencje, jeśli jest to wymagane przez konfigurację."""
+    if config["preferences"]:
+        print("Generowanie preferencji...")
+        preference_prompt = prompts["preferences_prompt"]
+        answers = load_json_data("data/answears.json")
+        preferences = generate_preferences(personas, answers, preference_prompt, llm)
+        save_to_file(preferences, "data/preferences.json")
+    else:
+        preferences = load_json_data("data/preferences.json")
+        if not preferences:
+            raise ValueError("Nie znaleziono pliku z preferencjami. Upewnij się, że konfiguracja jest poprawna lub wygeneruj preferencje.")
+    return preferences
 
 def main():
     """Główna funkcja programu."""
@@ -220,6 +277,7 @@ def main():
     topics = maybe_generate_topics(prompts, config, extend_personas, llm)
     questions = maybe_generate_questions(prompts, config, extend_personas, topics, llm)
     answers = maybe_generate_answers(prompts, personas, config, questions, llm)
+    preferences = maybe_generate_preferences(extend_personas, answers, prompts, config, llm)
 
 if __name__ == '__main__':
     main()
