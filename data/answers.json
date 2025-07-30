@@ -1,0 +1,760 @@
+{
+  "0": {
+    "id": 0,
+    "topic": 0,
+    "question": "How do you believe reallocating police funds to social services like mental health programs and housing could address systemic issues like racial injustice and over-policing in marginalized communities?",
+    "answer1": "Reallocating police funds to social services like mental health programs and housing is a crucial step toward addressing systemic racial injustice and over-policing. Marginalized communities often face disproportionate police violence due to underlying social issues like poverty, lack of access to mental health care, and unstable housing. By investing in these areas, we can reduce the need for police intervention, create safer communities, and address root causes of crime. This approach not only promotes equity but also fosters trust between law enforcement and the communities they serve.",
+    "answer2": "Reallocating police funds to social services is a misguided solution that could exacerbate crime and disorder in marginalized communities. While mental health and housing programs are important, defunding the police risks leaving communities vulnerable to increased violence and lawlessness. Police presence is necessary to maintain public safety, and diverting resources away from law enforcement could lead to longer response times and fewer officers to handle emergencies. Instead of defunding, we should focus on reforming police practices while maintaining adequate funding for public safety."
+  },
+  "1": {
+    "id": 1,
+    "topic": 0,
+    "question": "As a business owner, how concerned are you about potential increases in crime or property damage if police budgets are reduced, and what alternatives would you support for maintaining public safety?",
+    "answer1": "As a business owner, I am extremely concerned about potential increases in crime or property damage if police budgets are reduced. Law enforcement plays a critical role in deterring criminal activity and ensuring the safety of our communities. Without adequate funding, response times could slow down, and crime rates might rise, directly impacting my business and customers. I would support maintaining or even increasing police budgets to ensure public safety. Additionally, I believe in investing in community policing programs that build trust between officers and the community, but not at the expense of reducing overall police resources.",
+    "answer2": "As a business owner, I am not overly concerned about potential increases in crime if police budgets are reduced, as I believe there are more effective and equitable ways to maintain public safety. Over-policing has not always led to safer communities, and reallocating funds to social services, mental health programs, and community-based initiatives could address the root causes of crime. I would support alternatives like restorative justice programs, affordable housing, and job training initiatives, which have been shown to reduce crime in the long term. Investing in these areas could create a safer and more inclusive environment for my business and the community at large."
+  },
+  "2": {
+    "id": 2,
+    "topic": 0,
+    "question": "Do you believe defunding the police undermines traditional law and order, and how does this align with your religious values on morality and societal stability?",
+    "answer1": {
+      "stance": "Yes, defunding the police undermines traditional law and order.",
+      "reasoning": "Traditional law and order rely on a strong police presence to deter crime and enforce justice. Defunding the police weakens this system, leading to potential chaos and a breakdown of societal stability. From a religious perspective, Romans 13:1-4 teaches that governing authorities are instituted by God to punish wrongdoing and promote good. Undermining them contradicts biblical principles of order and morality.",
+      "religious_values": "Aligns with the belief that God ordains authority structures to maintain peace and justice. Defunding the police disrupts this divine order, risking moral decay and societal unrest."
+    },
+    "answer2": {
+      "stance": "No, defunding the police does not undermine law and order but reforms it to better reflect moral values.",
+      "reasoning": "Defunding the police is about reallocating resources to address root causes of crime, such as poverty and mental health, which aligns with religious calls for compassion and justice (Micah 6:8). Traditional policing often perpetuates systemic injustice, and reforming it can create a more equitable and stable society. True societal stability comes from addressing inequity, not just enforcing order through force.",
+      "religious_values": "Aligns with teachings of love, mercy, and justice. Many religious traditions emphasize caring for the marginalized, and defunding the police to fund social services reflects these values more faithfully than maintaining a punitive system."
+    }
+  },
+  "3": {
+    "id": 3,
+    "topic": 0,
+    "question": "From a libertarian perspective, should policing be decentralized or privatized instead of relying on government-funded law enforcement, and what role should technology play in this shift?",
+    "answer1": "From a libertarian perspective, policing should absolutely be decentralized or privatized to reduce government overreach and increase efficiency. Government-funded law enforcement often leads to bureaucratic inefficiencies and abuse of power. Privatizing policing would introduce competition, ensuring better services at lower costs. Technology, such as blockchain for transparent record-keeping and AI for predictive policing, could further enhance accountability and effectiveness. Decentralized systems, like community-based policing with tech-enabled oversight, would empower individuals and local communities to tailor security to their needs.",
+    "answer2": "While libertarians advocate for limited government, privatizing or decentralizing policing could create dangerous inequities and chaos. Without a centralized authority, wealthy communities might afford superior private security, leaving poorer areas underprotected. Technology, like surveillance drones or facial recognition, could exacerbate privacy violations if controlled by unaccountable private entities. Government-funded policing, though imperfect, ensures a baseline of accountability and equal protection under the law. Libertarians should focus on reforming existing systems with technology for transparency, rather than risking a fragmented, profit-driven security landscape."
+  },
+  "4": {
+    "id": 4,
+    "topic": 0,
+    "question": "As someone who distrusts elite institutions, do you see defunding the police as a genuine reform effort or another political agenda pushed by urban elites that may harm rural communities?",
+    "answer1": "Defunding the police is a genuine reform effort aimed at addressing systemic issues in law enforcement, such as racial bias and excessive use of force. It’s not just an urban elite agenda—many grassroots movements in rural and urban areas alike support reallocating resources to social services that can better address root causes of crime, like poverty and mental health. Rural communities could benefit from these reforms by receiving more tailored, community-based solutions rather than relying solely on overburdened police forces.",
+    "answer2": "Defunding the police is largely a political agenda pushed by urban elites who are out of touch with the realities of rural communities. In many rural areas, police are already underfunded and play a critical role in maintaining safety. Cutting their resources further could leave these communities vulnerable to rising crime and slower emergency response times. This movement ignores the unique needs of rural America and risks imposing urban-centric solutions that don’t work elsewhere."
+  },
+  "5": {
+    "id": 5,
+    "topic": 1,
+    "question": "How do you think UBI could address systemic inequalities faced by marginalized communities, such as LGBTQ+ individuals and people of color?",
+    "answer1": "UBI could be a powerful tool to address systemic inequalities by providing marginalized communities, such as LGBTQ+ individuals and people of color, with financial stability and autonomy. By guaranteeing a basic income, UBI can help reduce economic disparities that often stem from discrimination in employment, housing, and education. This financial cushion can empower individuals to pursue better opportunities, escape abusive situations, or invest in their futures without the constant stress of poverty. Additionally, UBI could reduce reliance on stigmatized welfare programs, offering a more dignified and equitable solution to economic insecurity.",
+    "answer2": "While UBI may seem like a progressive solution, it could inadvertently perpetuate systemic inequalities by failing to address the root causes of marginalization. Simply giving money to LGBTQ+ individuals and people of color does not dismantle discriminatory systems in housing, employment, or healthcare. Without complementary structural reforms, UBI might even be co-opted by conservative agendas to justify cutting other social services, leaving marginalized communities worse off. Moreover, a flat UBI amount ignores the varying degrees of economic need within these groups, potentially benefiting wealthier individuals more than those truly struggling."
+  },
+  "6": {
+    "id": 6,
+    "topic": 1,
+    "question": "As a business owner, do you believe UBI would reduce workforce participation or incentivize entrepreneurship by providing financial security?",
+    "answer1": "As a business owner, I believe UBI would reduce workforce participation because it provides a financial safety net that might discourage people from seeking employment. Many individuals may choose to rely on UBI rather than work, leading to labor shortages and higher wages, which could strain small businesses.",
+    "answer2": "As a business owner, I believe UBI would incentivize entrepreneurship by providing financial security. With a guaranteed income, more people would take risks to start their own businesses, knowing they have a safety net to fall back on. This could lead to innovation, job creation, and a more dynamic economy."
+  },
+  "7": {
+    "id": 7,
+    "topic": 1,
+    "question": "Do you see UBI as undermining traditional family structures by reducing reliance on community and faith-based support systems?",
+    "answer1": "Yes, UBI could undermine traditional family structures by reducing the need for communal and faith-based support systems. When individuals receive unconditional financial support from the state, they may become less reliant on family, religious institutions, or local communities for help during tough times. This shift could weaken the bonds that hold these structures together, leading to a more isolated and less cohesive society.",
+    "answer2": "No, UBI does not undermine traditional family structures but rather strengthens them by providing financial stability. Many families struggle due to economic insecurity, and UBI can alleviate that stress, allowing them to focus on building stronger relationships. Additionally, UBI does not replace community or faith-based support—it complements them by giving people the resources to engage more meaningfully with these networks without the constant pressure of financial survival."
+  },
+  "8": {
+    "id": 8,
+    "topic": 1,
+    "question": "Would you support UBI if it were funded through decentralized mechanisms like cryptocurrency, minimizing government control over distribution?",
+    "answer1": "Yes, I would support UBI funded through decentralized mechanisms like cryptocurrency. This approach could reduce bureaucratic inefficiencies, increase transparency, and empower individuals by giving them direct control over their funds. Decentralization aligns with the principles of financial sovereignty and could prevent political manipulation of UBI programs.",
+    "answer2": "No, I would not support UBI funded through cryptocurrency. Decentralized mechanisms lack the stability and accountability needed for a reliable social safety net. Cryptocurrencies are volatile and susceptible to fraud, which could jeopardize the consistency of UBI payments. Government oversight ensures equitable distribution and protects vulnerable populations from exploitation."
+  },
+  "9": {
+    "id": 9,
+    "topic": 1,
+    "question": "Do you think UBI would benefit rural workers displaced by automation, or would it discourage them from seeking new job opportunities?",
+    "answer1": "UBI would greatly benefit rural workers displaced by automation by providing them with a financial safety net. This would allow them to retrain, relocate, or start small businesses without the immediate pressure of finding low-paying jobs. It would empower them to adapt to the changing economy at their own pace, ultimately leading to more sustainable livelihoods.",
+    "answer2": "UBI could discourage rural workers from seeking new job opportunities by creating a dependency on government assistance. Without the urgency to find work, some may become complacent, leading to long-term unemployment and stagnation in rural economies. Instead of fostering resilience, UBI might perpetuate economic inactivity in these communities."
+  },
+  "10": {
+    "id": 10,
+    "topic": 2,
+    "question": "How should society balance the rights of bodily autonomy for pregnant individuals with the moral concerns of those who view abortion as equivalent to taking a life?",
+    "answer1": "Society should prioritize the bodily autonomy of pregnant individuals above all else, as forcing someone to carry a pregnancy to term against their will is a violation of their fundamental human rights. The moral concerns of those who oppose abortion, while valid to them personally, should not dictate laws that restrict access to safe and legal abortion. The right to choose is essential for gender equality and personal freedom, and restricting it would disproportionately harm marginalized communities.",
+    "answer2": "Society must recognize that abortion involves the termination of a potential human life, and thus, moral concerns should carry significant weight in legislation. While bodily autonomy is important, it should not supersede the ethical responsibility to protect the unborn. Restrictions on abortion, with exceptions for extreme cases like threats to the mother's life, should be implemented to reflect the value of human life from conception. A balanced approach would involve promoting alternatives such as adoption while ensuring support for pregnant individuals in difficult situations."
+  },
+  "11": {
+    "id": 11,
+    "topic": 2,
+    "question": "Do you believe government regulations on abortion infringe on personal freedoms, or are they necessary to uphold ethical standards?",
+    "answer1": "Government regulations on abortion are a necessary measure to uphold ethical standards and protect the rights of the unborn. Without such regulations, society risks devaluing human life and allowing personal freedoms to override moral responsibilities. It's the government's duty to ensure that ethical boundaries are maintained, even if it means limiting individual choices in certain circumstances.",
+    "answer2": "Government regulations on abortion infringe on personal freedoms by imposing restrictive laws that disproportionately affect women's autonomy over their own bodies. Such regulations often reflect religious or ideological biases rather than ethical standards, and they can lead to dangerous, clandestine procedures. Personal freedom should include the right to make private medical decisions without government interference."
+  },
+  "12": {
+    "id": 12,
+    "topic": 2,
+    "question": "From a religious perspective, should secular laws allow abortion, or should they reflect traditional moral values that oppose it?",
+    "answer1": "From a religious perspective, secular laws should reflect traditional moral values that oppose abortion, as many faiths consider life sacred from conception. Governments have a duty to uphold moral principles that protect the unborn, even in pluralistic societies, to honor the beliefs of their religious communities and maintain a foundation of ethical integrity.",
+    "answer2": "Secular laws should allow abortion regardless of religious objections, as they must serve a diverse population with varying beliefs. Imposing religious morals on all citizens violates the separation of church and state and disregards individual autonomy, medical necessity, and personal circumstances that may justify the choice to terminate a pregnancy."
+  },
+  "13": {
+    "id": 13,
+    "topic": 2,
+    "question": "Should access to abortion be treated as a private matter between individuals and doctors, free from government interference, similar to other medical decisions?",
+    "answer1": "Yes, access to abortion should be treated as a private matter between individuals and doctors, free from government interference. Reproductive rights are fundamental human rights, and decisions about one's body should be made without political or legal intrusion. Just like other medical procedures, abortion should be guided by medical expertise and personal choice, not government mandates.",
+    "answer2": "No, abortion should not be treated as a purely private matter because it involves ethical and moral considerations that affect society as a whole. The government has a responsibility to protect the rights of the unborn, and allowing unrestricted abortion could lead to misuse or disregard for human life. Regulations are necessary to ensure that abortions are performed safely and ethically, with consideration for both the mother and the unborn child."
+  },
+  "14": {
+    "id": 14,
+    "topic": 2,
+    "question": "Given economic disparities, should abortion rights be expanded to ensure equitable access for low-income individuals, or restricted to align with certain moral beliefs?",
+    "answer1": "Abortion rights should be expanded to ensure equitable access for low-income individuals, as economic disparities often force vulnerable populations into unsafe and life-threatening situations when abortion is restricted. Reproductive healthcare is a fundamental right, and denying access based on income perpetuates systemic inequality. Expanding abortion rights aligns with principles of bodily autonomy and social justice, ensuring that all individuals, regardless of economic status, can make informed choices about their own health and futures.",
+    "answer2": "Abortion should be restricted to align with certain moral beliefs, as the sanctity of life must take precedence over economic considerations. Allowing abortion to be expanded based on financial circumstances undermines the ethical responsibility to protect the unborn. Instead of promoting abortion as a solution to economic disparities, society should focus on providing better support systems for low-income individuals, such as healthcare, childcare, and financial assistance, to reduce the perceived need for abortion in the first place."
+  },
+  "15": {
+    "id": 15,
+    "topic": 3,
+    "question": "How do you feel about policies like the Green New Deal, which aim to rapidly transition to renewable energy while addressing social inequalities? (Progressive Activist)",
+    "answer1": "The Green New Deal is a visionary and necessary policy that tackles the dual crises of climate change and social inequality head-on. By rapidly transitioning to renewable energy, we can create millions of high-quality jobs, especially in communities that have been historically marginalized. This isn't just about saving the planet—it's about building a fairer, more just society where no one is left behind. Critics who call it unrealistic are ignoring the urgency of the climate crisis and the moral imperative to act now.",
+    "answer2": "While the intentions behind the Green New Deal might be noble, it's an overly ambitious and economically reckless proposal. The rapid transition to renewable energy it demands would devastate industries like oil and gas, putting countless workers out of jobs without a realistic plan for retraining or replacement. Additionally, the massive government spending required could cripple the economy and burden taxpayers. Social inequalities should be addressed, but tying them to environmental policy creates a bloated, inefficient framework that risks failing on both fronts."
+  },
+  "16": {
+    "id": 16,
+    "topic": 3,
+    "question": "Do you believe stricter environmental regulations on businesses will harm economic growth and job creation, or are they necessary for long-term sustainability? (Conservative Business Owner)",
+    "answer1": "Yes, stricter environmental regulations will harm economic growth and job creation. As a business owner, I can tell you that additional regulations increase operational costs, which forces companies to cut jobs or raise prices to stay competitive. Many small businesses, in particular, cannot afford these added expenses and may be forced to shut down. While sustainability is important, we need balanced policies that don’t stifle innovation and economic opportunity.",
+    "answer2": "No, stricter environmental regulations are necessary for long-term sustainability and can even drive economic growth. Businesses that adapt to greener practices often find new opportunities in emerging markets, such as renewable energy and sustainable products. While there may be short-term costs, the long-term benefits—like reduced healthcare expenses from cleaner air and water, and a more stable climate—far outweigh them. Plus, consumers increasingly prefer eco-friendly companies, giving regulated businesses a competitive edge."
+  },
+  "17": {
+    "id": 17,
+    "topic": 3,
+    "question": "Should religious institutions take a stronger stance on climate change as a moral issue, or is environmental policy outside their domain? (Religious Traditionalist)",
+    "answer1": "Religious institutions should absolutely take a stronger stance on climate change as a moral issue. Stewardship of the Earth is a core tenet of many faiths, and failing to address environmental degradation is a violation of divine commandments to protect creation. By speaking out, religious leaders can inspire their followers to act with moral urgency and hold governments and corporations accountable.",
+    "answer2": "Environmental policy is outside the domain of religious institutions, which should focus on spiritual guidance rather than political or scientific matters. Climate change is a complex, secular issue best addressed by experts and policymakers. Religious leaders risk alienating their congregations and diluting their moral authority by venturing into debates where they lack specialized knowledge."
+  },
+  "18": {
+    "id": 18,
+    "topic": 3,
+    "question": "Would you support market-driven solutions like carbon credits and private-sector innovation over government-mandated emissions reductions? (Tech Libertarian)",
+    "answer1": "Absolutely! Market-driven solutions like carbon credits and private-sector innovation are far more efficient and scalable than government mandates. The private sector has the agility and incentive to develop cutting-edge technologies that can reduce emissions without stifling economic growth. Government regulations often lead to bureaucratic inefficiencies and unintended consequences, whereas carbon markets allow businesses to find the most cost-effective ways to reduce their environmental impact. Innovation thrives in a free market, and we’ve seen time and again that competition drives better outcomes than top-down control.",
+    "answer2": "No, market-driven solutions like carbon credits are often just a way for corporations to greenwash their pollution while avoiding real accountability. Carbon trading can create perverse incentives, allowing wealthy companies to buy their way out of reducing emissions while doing little to address the root causes of climate change. Private-sector innovation is important, but without strong government mandates, progress will be too slow and uneven. We need enforceable regulations to ensure emissions reductions are meaningful and equitable, rather than relying on a system that prioritizes profits over the planet."
+  },
+  "19": {
+    "id": 19,
+    "topic": 3,
+    "question": "Do you think climate policies disproportionately hurt rural communities (e.g., restrictions on farming or fossil fuels) while benefiting urban elites? (Rural Populist)",
+    "answer1": "Yes, climate policies often disproportionately hurt rural communities. Restrictions on farming practices, fossil fuel extraction, and other industries that rural economies rely on can lead to job losses and economic decline. Meanwhile, urban elites, who are less affected by these policies and may even benefit from green energy subsidies, often push for these measures without considering the real-world impact on rural livelihoods. This creates a growing divide between urban and rural areas, fueling resentment and populist backlash.",
+    "answer2": "No, climate policies are designed to benefit everyone in the long run, including rural communities. While there may be short-term adjustments, transitioning to sustainable practices can create new jobs in renewable energy, eco-tourism, and regenerative agriculture. Urban areas may see faster adoption of green technologies, but framing this as 'urban elites vs. rural populists' ignores the shared stakes in combating climate change. The real issue is ensuring equitable support for rural areas during the transition, not scrapping necessary policies."
+  },
+  "20": {
+    "id": 20,
+    "topic": 4,
+    "question": "How do you reconcile the need for stricter gun control to reduce mass shootings with the Second Amendment rights that many Americans hold dear?",
+    "answer1": "The Second Amendment was written in a different era and context, and it should not be interpreted as an absolute right to own any type of firearm without regulation. Stricter gun control measures, such as universal background checks, waiting periods, and bans on assault weapons, can significantly reduce mass shootings while still respecting the right to bear arms for self-defense and hunting. The goal is to balance public safety with constitutional rights, not to eliminate gun ownership entirely.",
+    "answer2": "The Second Amendment guarantees the right to bear arms, and any attempt to impose stricter gun control infringes on this fundamental freedom. Mass shootings are a complex issue rooted in mental health problems, societal breakdown, and inadequate enforcement of existing laws, not the availability of guns. Instead of restricting law-abiding citizens, we should focus on addressing the root causes of violence and ensuring that responsible gun owners can defend themselves and their families."
+  },
+  "21": {
+    "id": 21,
+    "topic": 4,
+    "question": "Given the disproportionate impact of gun violence on marginalized communities, do you believe defunding the police should be paired with stricter gun laws to protect vulnerable populations?",
+    "answer1": "Yes, defunding the police and implementing stricter gun laws are both necessary to protect marginalized communities. Police budgets often prioritize punitive measures over community support, and redirecting those funds to social services can address root causes of violence. Stricter gun laws would further reduce the availability of firearms, which are disproportionately used to harm vulnerable populations.",
+    "answer2": "No, defunding the police without ensuring proper law enforcement infrastructure could leave marginalized communities even more vulnerable to crime. Instead of stricter gun laws, which may infringe on constitutional rights, efforts should focus on community policing and addressing socio-economic disparities that contribute to violence."
+  },
+  "22": {
+    "id": 22,
+    "topic": 4,
+    "question": "As a business owner, do you see gun control regulations as government overreach that infringes on personal freedoms, or as necessary measures to ensure public safety?",
+    "answer1": "As a business owner, I see gun control regulations as government overreach that infringes on personal freedoms. The Second Amendment guarantees the right to bear arms, and excessive regulations only punish law-abiding citizens while doing little to stop criminals. Businesses should have the freedom to operate without unnecessary government interference, and individuals should retain their right to self-defense.",
+    "answer2": "As a business owner, I view gun control regulations as necessary measures to ensure public safety. Unrestricted access to firearms increases the risk of workplace violence, mass shootings, and other threats that can harm employees and customers. Responsible regulations strike a balance between individual rights and collective security, creating a safer environment for businesses and communities alike."
+  },
+  "23": {
+    "id": 23,
+    "topic": 4,
+    "question": "How do you balance the right to self-defense with the moral responsibility to prevent gun violence, especially in light of religious teachings on preserving life?",
+    "answer1": "The right to self-defense is a fundamental human right that should not be compromised, even in the face of concerns about gun violence. Religious teachings often emphasize the preservation of life, but they also recognize the necessity of protecting oneself and others from harm. Responsible gun ownership, including proper training and adherence to laws, can coexist with moral and religious values. The focus should be on addressing the root causes of violence, such as mental health and societal inequality, rather than restricting the rights of law-abiding citizens.",
+    "answer2": "While self-defense is a legitimate concern, the moral responsibility to prevent gun violence must take precedence, especially in light of religious teachings that prioritize the sanctity of life. The widespread availability of firearms increases the likelihood of misuse, accidents, and escalations of violence, which contradicts the principle of preserving life. Stricter gun control measures, such as background checks and waiting periods, align better with ethical and religious values by reducing the potential for harm. Society must prioritize collective safety over individual rights in this context."
+  },
+  "24": {
+    "id": 24,
+    "topic": 4,
+    "question": "Do you believe that looser gun laws would empower rural communities to protect themselves, or would they lead to more violence in already struggling areas?",
+    "answer1": "Looser gun laws would empower rural communities by allowing them to defend themselves more effectively, especially in areas where law enforcement response times are slow. Rural residents often face unique challenges, such as wildlife threats and isolated living conditions, where having access to firearms can be crucial for personal safety. Additionally, responsible gun ownership is a deeply ingrained cultural value in many rural areas, and stricter laws only penalize law-abiding citizens while doing little to curb illegal gun use.",
+    "answer2": "Looser gun laws would likely lead to more violence in already struggling rural areas, where economic hardship and lack of mental health resources already contribute to higher rates of gun-related incidents. Easier access to firearms could escalate domestic disputes, accidents, and suicides, which are already significant problems in these regions. Without proper regulation, the risks of increased gun violence far outweigh the perceived benefits of self-defense, particularly in communities that may lack the infrastructure to enforce safe gun practices."
+  },
+  "25": {
+    "id": 25,
+    "topic": 5,
+    "question": "How do you balance the need to hold public figures accountable for harmful speech with concerns about ideological intolerance and free speech suppression?",
+    "answer1": "Public figures must be held accountable for harmful speech to prevent the spread of dangerous ideologies and protect marginalized communities. While free speech is important, it should not shield individuals from consequences when their words incite violence or perpetuate hate. Accountability can take many forms, from public condemnation to legal repercussions, depending on the severity of the harm caused. Ideological intolerance is a lesser concern compared to the real-world damage caused by unchecked harmful rhetoric.",
+    "answer2": "Suppressing speech, even from public figures, sets a dangerous precedent for ideological intolerance and undermines the foundational principle of free expression. Instead of silencing or punishing harmful speech, society should engage in open debate and counter harmful ideas with better arguments. History shows that attempts to suppress speech often lead to authoritarian overreach and the silencing of dissenting voices. The best way to combat harmful speech is through more speech, not less."
+  },
+  "26": {
+    "id": 26,
+    "topic": 5,
+    "question": "Do you believe 'cancel culture' is an effective tool for social justice, or does it ultimately stifle open debate and harm marginalized voices?",
+    "answer1": "Cancel culture is an effective tool for social justice because it holds individuals and institutions accountable for harmful actions and statements. By publicly calling out and withdrawing support from those who perpetuate injustice, marginalized communities can reclaim power and demand change. While some argue it stifles open debate, the reality is that marginalized voices have long been silenced in traditional forums. Cancel culture shifts the balance, ensuring that those who have historically been ignored now have a platform to challenge systemic oppression.",
+    "answer2": "Cancel culture ultimately stifles open debate and harms marginalized voices by creating an environment of fear and self-censorship. Instead of fostering constructive dialogue, it encourages punitive measures that often lack nuance and due process. This can lead to unintended consequences, such as silencing allies who make mistakes but are willing to learn. Marginalized individuals may also face backlash if they express dissenting opinions, further isolating them. True social justice requires empathy, education, and conversation—not public shaming and exclusion."
+  },
+  "27": {
+    "id": 27,
+    "topic": 5,
+    "question": "Should private companies (e.g., social media platforms) have the authority to deplatform individuals for controversial opinions, or does this violate free speech principles?",
+    "answer1": "Private companies should have the authority to deplatform individuals for controversial opinions because they are not bound by the First Amendment and have the right to enforce their own community guidelines. Allowing harmful or misleading content to spread unchecked can lead to real-world consequences, and platforms have a responsibility to protect their users from harassment, misinformation, and hate speech.",
+    "answer2": "Deplatforming individuals for controversial opinions violates free speech principles, even if done by private companies. Social media platforms have become the modern public square, and silencing dissenting voices undermines democratic discourse. While companies have the legal right to moderate content, doing so arbitrarily or ideologically can lead to censorship and the suppression of important debates."
+  },
+  "28": {
+    "id": 28,
+    "topic": 5,
+    "question": "Is 'cancel culture' a legitimate form of accountability in a democratic society, or does it represent mob rule and ideological enforcement?",
+    "answer1": "Cancel culture is a legitimate form of accountability in a democratic society because it empowers marginalized voices to hold powerful individuals and institutions responsible for harmful actions. In a democracy, public opinion and social consequences are valid tools for enforcing ethical behavior when traditional systems fail. Cancel culture often targets systemic injustices, such as racism, sexism, or abuse, and forces necessary conversations about accountability that might otherwise be ignored.",
+    "answer2": "Cancel culture represents mob rule and ideological enforcement, undermining democratic principles like due process and free speech. It often operates on outrage rather than evidence, leading to disproportionate punishments for minor or misunderstood offenses. This creates a climate of fear where dissent is silenced, and people conform to ideological orthodoxy rather than engaging in open debate—essential for a healthy democracy."
+  },
+  "29": {
+    "id": 29,
+    "topic": 5,
+    "question": "How do you distinguish between reasonable consequences for offensive behavior and unjustified 'cancellation' driven by political bias?",
+    "answer1": "Reasonable consequences for offensive behavior are typically proportional, context-aware, and aimed at accountability or education. For example, a public figure making a racist remark might face public criticism, loss of endorsements, or mandatory sensitivity training. Unjustified 'cancellation,' on the other hand, often stems from political bias and involves disproportionate punishment, such as permanent ostracism or career destruction for minor or misunderstood offenses. The key distinction lies in intent, proportionality, and whether the response fosters growth or merely enforces ideological conformity.",
+    "answer2": "The line between reasonable consequences and unjustified 'cancellation' is often blurred by subjective interpretations of offense. What some call 'reasonable consequences'—such as firing someone for controversial opinions—others see as politically motivated silencing. True accountability should involve dialogue and redemption, but 'cancel culture' frequently skips these steps in favor of punitive measures driven by mob mentality. Political bias plays a significant role, as the same behavior may be condemned or excused based on the perpetrator's alignment with dominant ideological narratives."
+  },
+  "30": {
+    "id": 30,
+    "topic": 6,
+    "question": "How do you reconcile religious teachings with the legal recognition of same-sex marriage, and should religious institutions be compelled to perform such ceremonies?",
+    "answer1": "Religious teachings and legal recognition of same-sex marriage can coexist by respecting the separation of church and state. While the law ensures equal rights for all citizens, religious institutions should retain the autonomy to follow their doctrines. No religious institution should be compelled to perform ceremonies that contradict their beliefs, as this would infringe on their freedom of religion. However, secular laws must protect the rights of LGBTQ+ individuals to marry and access services without discrimination.",
+    "answer2": "Religious institutions should be compelled to perform same-sex marriages if they operate in the public sphere and benefit from tax exemptions or other state privileges. Denying marriage services to same-sex couples is a form of discrimination, and religious teachings must evolve to reflect modern values of equality and inclusion. If a religion claims to preach love and acceptance, it should practice those principles universally, not selectively. Legal recognition of same-sex marriage should override outdated religious doctrines that perpetuate harm and exclusion."
+  },
+  "31": {
+    "id": 31,
+    "topic": 6,
+    "question": "Do you believe that government recognition of same-sex marriage undermines traditional family structures, or is it a necessary step toward equality?",
+    "answer1": "Government recognition of same-sex marriage undermines traditional family structures by redefining the foundational concept of marriage, which has historically been between a man and a woman. This shift can erode societal values and create confusion about the importance of biological parenthood and gender roles in raising children.",
+    "answer2": "Recognizing same-sex marriage is a necessary step toward equality, as it affirms the dignity and rights of LGBTQ+ individuals. Traditional family structures are not threatened by inclusivity; instead, society benefits when all loving and committed relationships are respected and protected under the law."
+  },
+  "32": {
+    "id": 32,
+    "topic": 6,
+    "question": "From a libertarian perspective, should the government have any role in defining or restricting marriage, regardless of gender?",
+    "answer1": "From a libertarian perspective, the government should have no role in defining or restricting marriage, regardless of gender. Marriage is a private contract between consenting individuals, and the state's involvement infringes on personal liberty. Libertarians argue that all relationships should be governed by voluntary agreements, not state-imposed rules, and that the free market and civil society can handle disputes or recognition without government interference.",
+    "answer2": "While libertarians generally oppose government overreach, some argue that the state has a limited role in defining marriage to ensure legal clarity and protect contractual rights. Marriage involves legal benefits like tax breaks, inheritance, and medical decisions, which require a standardized definition. A purely private system could lead to chaos or discrimination, so a minimal, neutral framework—such as recognizing all consensual adult unions—might be necessary to uphold individual rights without excessive state control."
+  },
+  "33": {
+    "id": 33,
+    "topic": 6,
+    "question": "How does your stance on same-sex marriage align with your views on economic policy—do you see it as a distraction from class issues or as an essential part of social justice?",
+    "answer1": "Same-sex marriage is a fundamental human rights issue and should not be seen as a distraction from class struggles. Social justice is intersectional, and economic inequality cannot be addressed fully without also tackling discrimination based on sexual orientation. A fair economic policy must include protections for LGBTQ+ individuals to ensure equal opportunities in employment, housing, and healthcare.",
+    "answer2": "While same-sex marriage is an important social issue, the focus on it often diverts attention from more pressing economic concerns that affect the working class. Economic policies should prioritize wealth redistribution, workers' rights, and reducing income inequality, as these issues impact a far larger portion of the population. Social justice movements should not overshadow the urgent need for systemic economic reform."
+  },
+  "34": {
+    "id": 34,
+    "topic": 6,
+    "question": "Given your concerns about cultural shifts, do you think opposition to same-sex marriage is more about preserving tradition or resisting perceived progressive overreach?",
+    "answer1": "Opposition to same-sex marriage is primarily about preserving tradition. Many people view marriage as a sacred institution that has been defined for centuries as a union between a man and a woman. They fear that altering this definition undermines cultural and religious values that have been passed down through generations. For them, it's not about resisting progress but about maintaining the stability and continuity of societal norms that have long been the foundation of family structures.",
+    "answer2": "Opposition to same-sex marriage is more about resisting perceived progressive overreach. Critics argue that the push for same-sex marriage is part of a broader agenda to dismantle traditional values and impose a new moral framework on society. They see it as an example of cultural elites and activists forcing rapid social change without sufficient public consensus, leading to a backlash from those who feel their beliefs and way of life are being marginalized or erased."
+  },
+  "35": {
+    "id": 35,
+    "topic": 7,
+    "question": "How can cryptocurrency regulation ensure financial inclusion for marginalized communities while preventing fraud?",
+    "answer1": "Cryptocurrency regulation can ensure financial inclusion for marginalized communities by mandating that crypto platforms offer low-cost, accessible services tailored to underbanked populations, such as microloans and remittance solutions. To prevent fraud, regulators should enforce strict KYC (Know Your Customer) and AML (Anti-Money Laundering) requirements, while also promoting financial literacy programs to educate users about scams. However, excessive regulation could stifle innovation and exclude those without formal identification, so a balanced approach is crucial.",
+    "answer2": "Cryptocurrency regulation is inherently exclusionary and will likely harm marginalized communities more than help them. Heavy-handed rules, such as mandatory ID verification and transaction monitoring, create barriers for people without access to formal banking or government documents. Instead of relying on regulation, decentralized finance (DeFi) should be allowed to flourish, as it naturally reduces fraud through transparency and smart contracts. Financial inclusion is better achieved by removing gatekeepers, not adding more bureaucratic hurdles."
+  },
+  "36": {
+    "id": 36,
+    "topic": 7,
+    "question": "Should the government impose strict regulations on cryptocurrencies to protect investors, or would that stifle innovation and free-market principles?",
+    "answer1": "Yes, the government should impose strict regulations on cryptocurrencies to protect investors. The crypto market is highly volatile and prone to scams, fraud, and market manipulation. Without proper oversight, inexperienced investors risk losing their savings to predatory schemes. Regulations can ensure transparency, accountability, and stability, fostering long-term trust in the market while still allowing innovation within a secure framework.",
+    "answer2": "No, strict government regulations on cryptocurrencies would stifle innovation and undermine free-market principles. Cryptocurrencies thrive on decentralization and the ability to operate outside traditional financial systems. Overregulation could drive innovation overseas, limit financial freedom, and hinder the development of groundbreaking technologies. Instead, the market should self-regulate, allowing investors to make informed decisions while preserving the disruptive potential of blockchain technology."
+  },
+  "37": {
+    "id": 37,
+    "topic": 7,
+    "question": "Do you believe cryptocurrency undermines traditional moral and economic values, and should religious institutions take a stance against it?",
+    "answer1": "Cryptocurrency does not inherently undermine traditional moral and economic values; it is simply a technological innovation in finance. Religious institutions should not take a stance against it unless it is being used for unethical purposes, just as they would with any other form of currency. The decentralized nature of cryptocurrency can even align with values of transparency and fairness, depending on its use.",
+    "answer2": "Cryptocurrency poses a significant threat to traditional moral and economic values by promoting greed, speculation, and financial instability. Many religious institutions should take a firm stance against it, as it often facilitates illicit activities and undermines the trust-based systems that uphold societal and spiritual values. The lack of centralized oversight contradicts the principles of accountability and communal responsibility upheld by many faiths."
+  },
+  "38": {
+    "id": 38,
+    "topic": 7,
+    "question": "Would excessive government regulation of cryptocurrencies violate the principles of decentralization and personal freedom that the technology was built on?",
+    "answer1": "Yes, excessive government regulation of cryptocurrencies would fundamentally violate the principles of decentralization and personal freedom that the technology was built on. Cryptocurrencies were designed to operate outside traditional financial systems, empowering individuals with direct control over their assets. Heavy-handed regulation could stifle innovation, undermine privacy, and reintroduce the very centralization that cryptocurrencies sought to eliminate.",
+    "answer2": "No, reasonable government regulation of cryptocurrencies does not inherently violate decentralization or personal freedom. While the technology promotes autonomy, unchecked use can enable illegal activities, fraud, and systemic risks. Thoughtful regulation can protect consumers, ensure market stability, and foster mainstream adoption without completely eroding the core principles of cryptocurrency."
+  },
+  "39": {
+    "id": 39,
+    "topic": 7,
+    "question": "Given the distrust of big banks and elites, should rural and working-class communities embrace cryptocurrency as an alternative, or is it just another scam?",
+    "answer1": "Cryptocurrency offers rural and working-class communities a decentralized alternative to traditional banking, free from the control of elites and big banks. With blockchain technology, transactions are transparent and secure, reducing the risk of fraud. By embracing crypto, these communities can gain financial independence and access to global markets without relying on institutions that have historically failed them.",
+    "answer2": "Cryptocurrency is just another scam that preys on the distrust of big banks, promising financial freedom but delivering volatility and risk. Many crypto projects are unregulated, leaving rural and working-class investors vulnerable to fraud, market manipulation, and catastrophic losses. Without proper safeguards, crypto could worsen financial inequality rather than solve it."
+  },
+  "40": {
+    "id": 40,
+    "topic": 8,
+    "question": "How do you believe affirmative action helps address systemic inequalities faced by marginalized communities, particularly in education and employment?",
+    "answer1": "Affirmative action is a vital tool for addressing systemic inequalities by actively leveling the playing field for marginalized communities. In education, it ensures that historically underrepresented groups, such as racial minorities and women, have access to opportunities they have been systematically denied due to discriminatory practices. In employment, it helps counteract implicit biases and promotes diversity, which fosters innovation and better represents the demographics of society. Without affirmative action, many institutions would revert to homogeneity, perpetuating cycles of disadvantage.",
+    "answer2": "Affirmative action, while well-intentioned, often perpetuates inequality by prioritizing identity over merit. In education, it can lead to mismatched placements where students admitted under affirmative action policies may struggle academically, undermining their confidence and success. In employment, it can create resentment among those who feel they were passed over unfairly, fostering division rather than unity. Systemic inequalities should be addressed through root-cause solutions like improving K-12 education and economic opportunities, rather than through policies that can inadvertently reinforce stereotypes and create new forms of discrimination."
+  },
+  "41": {
+    "id": 41,
+    "topic": 8,
+    "question": "Do you think affirmative action policies unfairly disadvantage more qualified candidates in favor of diversity, and if so, how should hiring/admissions decisions be made instead?",
+    "answer1": "Yes, affirmative action policies can unfairly disadvantage more qualified candidates by prioritizing diversity over merit. Hiring and admissions decisions should be based solely on qualifications, skills, and achievements to ensure fairness and maintain high standards. A merit-based system would eliminate bias and reward individuals for their hard work and capabilities, fostering a more competitive and just environment.",
+    "answer2": "No, affirmative action policies do not unfairly disadvantage more qualified candidates; they address systemic inequalities by ensuring underrepresented groups have equal opportunities. Hiring and admissions decisions should consider both merit and diversity to create inclusive environments that reflect society. A holistic approach, evaluating candidates' backgrounds, experiences, and potential, is essential for breaking down barriers and promoting equity."
+  },
+  "42": {
+    "id": 42,
+    "topic": 8,
+    "question": "From a religious and moral standpoint, do you see affirmative action as a just way to correct historical wrongs, or does it conflict with principles of fairness and individual merit?",
+    "answer1": "From a religious and moral standpoint, affirmative action is a just way to correct historical wrongs. Many religious teachings emphasize compassion, justice, and the need to uplift the marginalized. Affirmative action aligns with these principles by addressing systemic inequalities and providing opportunities to those who have been historically oppressed. It is a form of reparative justice that seeks to level the playing field, ensuring that all individuals, regardless of their background, have a fair chance to succeed. This approach reflects the moral imperative to 'love thy neighbor' and to actively work against injustice.",
+    "answer2": "From a religious and moral standpoint, affirmative action conflicts with principles of fairness and individual merit. Many religious traditions teach that individuals should be judged by their character and actions, not by their race or background. Affirmative action, by prioritizing group identity over personal achievement, can undermine the value of hard work and meritocracy. It may also perpetuate divisions by treating people differently based on historical grievances rather than their current circumstances. Morally, it raises questions about whether it is just to disadvantage one group to benefit another, even if the intent is to correct past wrongs."
+  },
+  "43": {
+    "id": 43,
+    "topic": 8,
+    "question": "Should affirmative action policies be replaced with race-neutral alternatives (e.g., class-based preferences) to avoid government overreach while still addressing inequality?",
+    "answer1": "Yes, affirmative action policies should be replaced with race-neutral alternatives like class-based preferences. Race-conscious policies can perpetuate divisions and lead to reverse discrimination, while class-based policies more accurately target socioeconomic disadvantage, which often overlaps with racial inequality. This approach reduces government overreach by focusing on economic need rather than race, ensuring fairness for all individuals regardless of background.",
+    "answer2": "No, race-neutral alternatives like class-based preferences are insufficient to address systemic racial inequality. Affirmative action is necessary to counteract deep-seated racial biases and historical injustices that class-based policies alone cannot fix. Removing race-conscious policies risks ignoring the unique barriers faced by marginalized racial groups, ultimately weakening efforts to achieve true equity in education and employment."
+  },
+  "44": {
+    "id": 44,
+    "topic": 8,
+    "question": "Do you view affirmative action as a necessary tool for social justice, or do you see it as an example of excessive government intervention that stifles merit-based competition?",
+    "answer1": "Affirmative action is a necessary tool for social justice because it addresses systemic inequalities and historical injustices that have marginalized certain groups. Without such policies, underrepresented communities would continue to face barriers to opportunities in education and employment, perpetuating cycles of disadvantage. It ensures a more equitable society by leveling the playing field and promoting diversity, which benefits everyone.",
+    "answer2": "Affirmative action is an example of excessive government intervention that undermines merit-based competition. By prioritizing race or gender over qualifications, it unfairly disadvantages individuals who may be more deserving based on their skills and achievements. Such policies can create resentment and perpetuate divisions, rather than fostering a society where success is earned through hard work and ability."
+  },
+  "45": {
+    "id": 45,
+    "topic": 9,
+    "question": "How do you believe universal healthcare could address systemic inequalities in access to medical care, particularly for marginalized communities like LGBTQ+ individuals and people of color?",
+    "answer1": "Universal healthcare can significantly reduce systemic inequalities by providing equal access to medical services for all individuals, regardless of their socioeconomic status, race, or sexual orientation. By removing financial barriers, marginalized communities like LGBTQ+ individuals and people of color would no longer face discrimination in accessing care due to inability to pay. Additionally, a universal system could mandate culturally competent training for healthcare providers, ensuring that these communities receive respectful and appropriate care. This would help address long-standing disparities in health outcomes and foster a more equitable society.",
+    "answer2": "While universal healthcare aims to provide equal access, it may not fully address systemic inequalities without targeted reforms. Marginalized communities, such as LGBTQ+ individuals and people of color, often face discrimination within healthcare systems that goes beyond affordability—such as bias, lack of representation, and inadequate services for their specific needs. Simply expanding access without addressing these deeper issues could perpetuate existing disparities. Furthermore, universal healthcare might lead to longer wait times and resource shortages, disproportionately affecting those who already struggle to receive timely care. True equity requires not just universal coverage but also systemic changes to how care is delivered."
+  },
+  "46": {
+    "id": 46,
+    "topic": 9,
+    "question": "Given your concerns about government overreach, how do you weigh the potential economic burden of universal healthcare against the benefits of a healthier workforce for businesses?",
+    "answer1": "While a healthier workforce is undoubtedly beneficial for businesses, the economic burden of universal healthcare is too significant to ignore. Government-run healthcare systems often lead to higher taxes, increased national debt, and inefficiencies due to bureaucratic red tape. Businesses may face additional financial strain through higher corporate taxes or mandatory contributions, which could stifle innovation and reduce competitiveness. Moreover, the one-size-fits-all approach of universal healthcare may not address the diverse needs of all workers, potentially leading to suboptimal health outcomes despite the increased spending. A market-driven system with targeted subsidies for low-income individuals might be a more efficient way to improve workforce health without overburdening the economy.",
+    "answer2": "The long-term economic benefits of universal healthcare far outweigh the immediate costs. A healthier workforce means fewer sick days, higher productivity, and lower turnover rates, all of which directly benefit businesses. Universal healthcare also reduces the administrative burden on employers who currently navigate complex private insurance systems. While taxes may increase, businesses and individuals would no longer bear the exorbitant costs of private premiums, copays, and deductibles. Studies show that countries with universal healthcare often spend less per capita on healthcare while achieving better public health outcomes. The initial economic burden is an investment in a more stable, productive, and equitable society, which ultimately fosters a stronger economy."
+  },
+  "47": {
+    "id": 47,
+    "topic": 9,
+    "question": "Some argue that universal healthcare could reduce reliance on faith-based charities for medical needs. Do you see this as a positive development or a threat to community-driven support systems?",
+    "answer1": {
+      "stance": "Positive development",
+      "reasoning": "Universal healthcare ensures that everyone has access to medical services regardless of their financial situation, reducing the need for faith-based charities to fill gaps in care. This allows these organizations to focus on other community needs, such as spiritual support or social services, while healthcare becomes a guaranteed right for all."
+    },
+    "answer2": {
+      "stance": "Threat to community-driven support systems",
+      "reasoning": "Faith-based charities provide more than just medical care; they offer holistic support, including emotional and spiritual guidance, which universal healthcare cannot replace. Reducing reliance on these charities might weaken community bonds and diminish the personalized care and compassion that these organizations uniquely provide."
+    }
+  },
+  "48": {
+    "id": 48,
+    "topic": 9,
+    "question": "As someone who values minimal government intervention, would you support a decentralized, market-driven alternative to universal healthcare (e.g., health savings accounts or blockchain-based systems)?",
+    "answer1": "Yes, I would strongly support a decentralized, market-driven alternative to universal healthcare. Government-run systems are often inefficient, bureaucratic, and prone to shortages. Health savings accounts (HSAs) and blockchain-based systems empower individuals to take control of their own healthcare spending, fostering competition and innovation. This approach aligns with personal responsibility and free-market principles, ensuring that patients and providers—not politicians—make the decisions that affect their lives.",
+    "answer2": "No, I would not support such alternatives because they often exacerbate inequality and fail to provide universal coverage. Health savings accounts and blockchain systems primarily benefit those who are already wealthy or tech-savvy, leaving vulnerable populations behind. Universal healthcare ensures that everyone, regardless of income or background, has access to essential medical services. Decentralized systems may sound appealing in theory, but in practice, they risk fragmenting care and undermining collective responsibility for public health."
+  },
+  "49": {
+    "id": 49,
+    "topic": 9,
+    "question": "Many rural hospitals struggle to stay open. Do you think universal healthcare would improve access to care in your community, or do you fear it would lead to longer wait times and bureaucracy?",
+    "answer1": "Universal healthcare would significantly improve access to care in rural communities by providing stable funding for struggling hospitals and ensuring that all residents, regardless of income, can receive necessary medical treatment. It would reduce the financial burden on rural hospitals that often serve uninsured or underinsured populations, allowing them to stay open and serve their communities more effectively. While there may be some initial challenges with implementation, the long-term benefits of equitable access to care far outweigh the potential for temporary bureaucratic hurdles.",
+    "answer2": "Universal healthcare could exacerbate the problems rural hospitals already face by introducing more bureaucracy and longer wait times. With limited resources and healthcare providers in rural areas, a sudden influx of patients under a universal system could overwhelm existing facilities, leading to decreased quality of care. Additionally, government-run systems often suffer from inefficiencies and red tape, which could further strain rural hospitals that are already operating on thin margins. Instead of universal healthcare, targeted solutions like subsidies or incentives for healthcare providers to work in rural areas might be more effective."
+  },
+  "50": {
+    "id": 50,
+    "topic": 10,
+    "question": "How do you reconcile the humanitarian needs of migrants with concerns about national security and job protection?",
+    "answer1": "The humanitarian needs of migrants should always take precedence over national security and job protection concerns. Borders are arbitrary constructs, and all humans have the right to seek safety and better opportunities. Restrictive policies often stem from xenophobia and economic protectionism, which are not valid reasons to deny people their basic rights. Instead of tightening borders, nations should focus on integrating migrants, providing them with necessary support, and addressing the root causes of migration, such as poverty and conflict.",
+    "answer2": "National security and job protection must be the top priorities when addressing migration. Uncontrolled migration can strain public resources, threaten cultural cohesion, and create security risks. While humanitarian concerns are important, they should not override the well-being of a nation's citizens. Strict vetting processes, quotas, and policies that prioritize domestic workers are essential to maintain stability. Compassion should be balanced with pragmatism to ensure that helping others does not come at the expense of national interests."
+  },
+  "51": {
+    "id": 51,
+    "topic": 10,
+    "question": "Do you believe stricter border controls are necessary to protect domestic industries and workers, or do the economic benefits of immigration outweigh those concerns?",
+    "answer1": "Stricter border controls are absolutely necessary to protect domestic industries and workers. Uncontrolled immigration floods the labor market with cheap labor, driving down wages and making it harder for local workers to compete. Additionally, domestic industries suffer when foreign competitors can undercut prices due to lower labor costs abroad. Protecting our borders ensures that our economy prioritizes the well-being of its own citizens first.",
+    "answer2": "The economic benefits of immigration far outweigh the concerns about protecting domestic industries. Immigrants contribute significantly to economic growth by filling labor shortages, starting businesses, and paying taxes. Studies show that immigration boosts productivity and innovation, which benefits everyone in the long run. Stricter border controls would only stifle these advantages and harm the economy more than they would help."
+  },
+  "52": {
+    "id": 52,
+    "topic": 10,
+    "question": "From a moral or religious perspective, how should a nation balance its duty to help vulnerable migrants with its responsibility to enforce laws and maintain order?",
+    "answer1": "From a moral and religious perspective, a nation's primary duty is to show compassion and hospitality to vulnerable migrants, as many faiths emphasize caring for the stranger and the oppressed. Laws should be interpreted and enforced with mercy, prioritizing human dignity over strict adherence to immigration policies. Maintaining order should not come at the expense of turning away those in need, as this contradicts the ethical teachings of most major religions.",
+    "answer2": "From a moral and religious standpoint, a nation must first uphold its laws and maintain order to ensure the well-being of its citizens. While compassion is important, unchecked migration can strain resources and destabilize society, harming both migrants and residents. Religious texts also emphasize the importance of lawful governance, suggesting that a balanced approach—providing aid within legal frameworks—is the most ethical path forward."
+  },
+  "53": {
+    "id": 53,
+    "topic": 10,
+    "question": "Should border policies prioritize free movement and economic efficiency (e.g., labor market flexibility) over sovereignty and cultural preservation?",
+    "answer1": "Yes, border policies should prioritize free movement and economic efficiency. Open borders facilitate labor market flexibility, allowing workers to move where they are most needed, which boosts productivity and economic growth. Cultural preservation can still occur organically through community initiatives, while sovereignty should adapt to the realities of a globalized world where interdependence is key to prosperity.",
+    "answer2": "No, border policies must prioritize sovereignty and cultural preservation. Unrestricted movement can lead to cultural dilution, social tensions, and loss of national identity. Economic benefits should not come at the expense of a nation's right to control its borders and protect its cultural heritage. Strict immigration controls are necessary to maintain social cohesion and long-term stability."
+  },
+  "54": {
+    "id": 54,
+    "topic": 10,
+    "question": "How do you weigh the potential risks of unchecked immigration (e.g., crime, resource strain) against the ethical obligation to provide refuge to those fleeing violence or poverty?",
+    "answer1": "The ethical obligation to provide refuge to those fleeing violence or poverty must take precedence over potential risks like crime or resource strain. History shows that immigrants often contribute significantly to their host countries, and fears of crime or resource depletion are frequently overstated. Denying refuge to those in need violates fundamental human rights and undermines global solidarity. A compassionate approach, coupled with smart integration policies, can mitigate risks while upholding moral responsibility.",
+    "answer2": "While providing refuge is a noble ideal, unchecked immigration poses real and serious risks to national security, public safety, and economic stability. Crime rates and resource strain in host countries can escalate, burdening taxpayers and overwhelming social services. Strict vetting and controlled immigration policies are necessary to balance humanitarian concerns with the well-being of citizens. A nation’s primary duty is to protect its own people first."
+  },
+  "55": {
+    "id": 55,
+    "topic": 11,
+    "question": "How do you think teaching Critical Race Theory in schools could help students understand and combat systemic racism in America? (Progressive Activist)",
+    "answer1": "Teaching Critical Race Theory (CRT) in schools is essential for helping students understand the deep-rooted systemic racism in America. By examining how laws, policies, and institutions perpetuate racial inequalities, students can develop a critical lens to identify and challenge these injustices. CRT empowers young people to recognize their own biases and fosters empathy, equipping them with the tools to advocate for equity and justice in their communities. Without this education, we risk perpetuating ignorance and allowing systemic racism to persist unchecked.",
+    "answer2": "While some argue that CRT is necessary to combat systemic racism, teaching it in schools could actually deepen racial divisions among students. By framing all societal issues through the lens of race and oppression, CRT may encourage students to view themselves and others as either victims or oppressors, fostering resentment rather than unity. Additionally, CRT's focus on systemic inequities might overshadow individual agency and personal responsibility, potentially disempowering students rather than inspiring them to create positive change. There are more constructive ways to teach about racism without promoting divisive ideologies."
+  },
+  "56": {
+    "id": 56,
+    "topic": 11,
+    "question": "Do you believe that teaching CRT in schools unfairly portrays American history and institutions as inherently racist, potentially harming students' patriotism and national unity? (Conservative Business Owner)",
+    "answer1": "Yes, teaching Critical Race Theory (CRT) in schools unfairly distorts American history by focusing solely on systemic racism and oppression. This one-sided narrative undermines the achievements of our nation and fosters division among students. Instead of promoting unity and patriotism, CRT teaches children to view themselves and others through the lens of race, which can lead to resentment and a fractured sense of national identity. We should focus on a balanced, patriotic education that celebrates America's progress and values.",
+    "answer2": "No, teaching CRT does not unfairly portray American history—it simply acknowledges the systemic racism that has shaped our institutions. Understanding this history is essential for fostering true patriotism and national unity. Ignoring or whitewashing past injustices only perpetuates division. By confronting these truths, students can work toward a more equitable and united future. CRT doesn’t harm patriotism; it strengthens it by encouraging a honest reckoning with our past."
+  },
+  "57": {
+    "id": 57,
+    "topic": 11,
+    "question": "Should schools prioritize teaching traditional American values and historical narratives over frameworks like CRT, which some argue undermine religious and family-centered morals? (Religious Traditionalist)",
+    "answer1": "Yes, schools should absolutely prioritize teaching traditional American values and historical narratives. These values, rooted in faith, family, and patriotism, have shaped our nation's greatness and provide a moral compass for future generations. Critical Race Theory (CRT) divisively focuses on race and undermines the unity and shared heritage that bind us as Americans. By emphasizing our foundational principles, we ensure children grow up with respect for their country and the religious and family-centered morals that sustain it.",
+    "answer2": "No, schools should not prioritize traditional American values at the expense of frameworks like CRT. While tradition has its place, it often glosses over the systemic injustices and inequalities that have shaped our history. CRT provides a necessary lens to understand these complexities and fosters a more inclusive and equitable society. Suppressing such frameworks to uphold a singular narrative risks perpetuating ignorance and marginalizing the experiences of minority communities, which is contrary to the principles of truth and justice."
+  },
+  "58": {
+    "id": 58,
+    "topic": 11,
+    "question": "Do you see CRT in schools as government overreach into education, or do you think local communities should have full control over curriculum decisions? (Tech Libertarian)",
+    "answer1": "CRT in schools is a clear example of government overreach into education. The federal government should not impose ideological frameworks on local schools, as this undermines the principles of local control and individual liberty. Curriculum decisions should be left entirely to local communities, parents, and educators who best understand the needs and values of their students.",
+    "answer2": "Local communities should not have unchecked control over curriculum decisions, especially when it comes to critical frameworks like CRT. Without federal oversight, marginalized voices could be systematically excluded, and historical injustices might be whitewashed. A balanced approach with federal guidelines ensures equity and accountability in education while still allowing for local flexibility."
+  },
+  "59": {
+    "id": 59,
+    "topic": 11,
+    "question": "Given concerns about 'divisive' teachings, should CRT be banned from public schools to prevent further polarization, or is it necessary for an honest reckoning with racial injustice? (Anti-Woke Centrist)",
+    "answer1": {
+      "stance": "CRT should be banned from public schools",
+      "reasoning": "Critical Race Theory (CRT) is inherently divisive and promotes a worldview that categorizes individuals based on race, fostering resentment and division among students. Public schools should focus on unifying principles and shared values rather than ideologies that emphasize historical grievances. Banning CRT would help prevent further polarization and ensure that education remains focused on academic excellence and national unity."
+    },
+    "answer2": {
+      "stance": "CRT should not be banned and is necessary for an honest reckoning with racial injustice",
+      "reasoning": "Critical Race Theory provides an essential framework for understanding systemic racism and its historical roots in the United States. Banning CRT would whitewash history and deny students the opportunity to engage with the complexities of racial injustice. An honest education must include uncomfortable truths to foster meaningful progress toward equity and justice. Preventing CRT from being taught only perpetuates ignorance and hinders societal healing."
+    }
+  },
+  "60": {
+    "id": 60,
+    "topic": 12,
+    "question": "How can we ensure that transgender athletes are fully included in sports while addressing concerns about competitive fairness?",
+    "answer1": "To ensure full inclusion of transgender athletes while maintaining competitive fairness, sports organizations should adopt policies based on self-identification and individual performance metrics rather than biological sex. This approach respects gender identity and allows athletes to compete in categories that align with their lived experience. Over time, data can be collected to assess any performance disparities, and adjustments can be made if necessary. The focus should be on inclusivity, as the mental and emotional well-being of transgender athletes is just as important as physical competition.",
+    "answer2": "Competitive fairness must take precedence, so transgender athletes should compete in categories based on biological sex rather than gender identity. Hormonal differences, particularly in male-to-female transitions, can provide inherent physical advantages that may undermine fairness in women's sports. While inclusivity is important, maintaining a level playing field is crucial for the integrity of competitive sports. Separate categories or adjusted handicaps could be explored as potential compromises, but biological sex should remain the primary criterion for competition divisions."
+  },
+  "61": {
+    "id": 61,
+    "topic": 12,
+    "question": "Do you believe that allowing transgender athletes to compete based on gender identity undermines the integrity of women's sports?",
+    "answer1": "Yes, allowing transgender athletes to compete based on gender identity undermines the integrity of women's sports. Biological differences, such as muscle mass and bone density, give transgender women who went through male puberty a competitive advantage over cisgender women. This creates an unfair playing field and could discourage female athletes from participating in sports where they feel they cannot compete on equal terms.",
+    "answer2": "No, allowing transgender athletes to compete based on gender identity does not undermine the integrity of women's sports. Sports organizations have established guidelines, such as hormone therapy requirements, to ensure fair competition. Excluding transgender athletes perpetuates discrimination and ignores the importance of inclusivity in sports. Women's sports can thrive while embracing diversity and ensuring all athletes have the opportunity to compete authentically."
+  },
+  "62": {
+    "id": 62,
+    "topic": 12,
+    "question": "Should religious values play a role in determining whether transgender athletes can compete in gendered sports divisions?",
+    "answer1": "Yes, religious values should play a role in determining whether transgender athletes can compete in gendered sports divisions. Many religions uphold traditional views on gender and biological sex, and these beliefs should be respected in public policies. Allowing transgender athletes to compete based on gender identity rather than biological sex could conflict with deeply held religious convictions about fairness and morality in sports. Society should prioritize protecting religious freedoms alongside ensuring competitive integrity.",
+    "answer2": "No, religious values should not influence whether transgender athletes can compete in gendered sports divisions. Sports policies should be based on scientific, ethical, and inclusive principles rather than religious doctrines, which vary widely and are not universally accepted. Excluding transgender athletes based on religious beliefs would be discriminatory and undermine efforts toward equality. Decisions about sports participation should focus on fairness, inclusion, and individual rights rather than subjective moral or theological perspectives."
+  },
+  "63": {
+    "id": 63,
+    "topic": 12,
+    "question": "Would a decentralized, self-regulating sports model (e.g., private leagues setting their own rules) be the best solution for transgender participation in sports?",
+    "answer1": "A decentralized, self-regulating sports model would be the best solution for transgender participation in sports because it allows individual leagues to tailor rules based on their specific contexts, values, and competitive fairness. This approach respects diversity and avoids imposing a one-size-fits-all policy, which may not account for the nuances of different sports or levels of competition. Private leagues can innovate and find balanced solutions that prioritize inclusion while maintaining competitive integrity.",
+    "answer2": "A decentralized model for transgender participation in sports would lead to inconsistency, confusion, and potential discrimination, as private leagues could impose arbitrary or biased rules. Without centralized guidelines, transgender athletes might face exclusion or unfair treatment depending on the league's stance. This could undermine the spirit of sportsmanship and equality, creating a fragmented system where access and fairness vary widely."
+  },
+  "64": {
+    "id": 64,
+    "topic": 12,
+    "question": "Do you think elite institutions and sports organizations are pushing transgender inclusion in sports at the expense of fairness for female athletes?",
+    "answer1": "Yes, elite institutions and sports organizations are prioritizing transgender inclusion over fairness for female athletes. Allowing transgender women, who may have physical advantages due to male puberty, to compete in women's sports undermines the decades-long fight for gender equality in athletics. Biological differences in strength, speed, and endurance can create an uneven playing field, disadvantaging cisgender female athletes. Policies should prioritize fairness and safety over inclusivity in competitive sports.",
+    "answer2": "No, transgender inclusion in sports does not come at the expense of fairness for female athletes. Elite institutions and sports organizations are working to create inclusive policies that respect gender identity while maintaining competitive integrity. Research on athletic performance among transgender athletes is still evolving, and many governing bodies have implemented hormone regulations to ensure fairness. Excluding transgender athletes perpetuates discrimination and ignores the importance of diversity and inclusion in sports."
+  },
+  "65": {
+    "id": 65,
+    "topic": 13,
+    "question": "How do you justify taxing the wealthy at higher rates as a means of addressing systemic inequality, especially when wealth is often concentrated in historically privileged groups? (Progressive Activist)",
+    "answer1": "Taxing the wealthy at higher rates is a moral and economic necessity to rectify centuries of systemic inequality. Historically privileged groups have benefited from policies that concentrated wealth and power in their hands, often at the expense of marginalized communities. Progressive taxation ensures that those who have profited the most from societal structures contribute their fair share to fund public services, education, and social programs that uplift everyone. This is not about punishment—it's about justice and creating a more equitable society where opportunity isn't hoarded by a few.",
+    "answer2": "Higher taxes on the wealthy are a misguided and counterproductive approach to addressing inequality. Wealth creation is not a zero-sum game, and penalizing success discourages innovation and investment, which ultimately harms economic growth for everyone. Many wealthy individuals already contribute significantly through philanthropy and job creation. Instead of punitive taxation, we should focus on policies that empower all individuals to succeed, such as education reform and reducing regulatory barriers. Redistribution through taxation risks stifling the very economic dynamism that lifts people out of poverty."
+  },
+  "66": {
+    "id": 66,
+    "topic": 13,
+    "question": "Do you believe higher taxes on the wealthy discourage entrepreneurship and investment, ultimately harming job creation and economic growth? (Conservative Business Owner)",
+    "answer1": "Yes, higher taxes on the wealthy absolutely discourage entrepreneurship and investment. When successful individuals and business owners are taxed at higher rates, they have less capital to reinvest in their businesses, hire new employees, or fund innovative ventures. This stifles economic growth and job creation, as the wealthy are often the ones driving new opportunities. High taxes can also push entrepreneurs to relocate to more tax-friendly environments, taking jobs and economic activity with them.",
+    "answer2": "No, higher taxes on the wealthy do not necessarily discourage entrepreneurship or harm economic growth. Many wealthy individuals and businesses are motivated by factors beyond just tax rates, such as market opportunities and personal ambition. Additionally, the revenue generated from higher taxes can be invested in public infrastructure, education, and social programs, which create a more stable and skilled workforce—ultimately benefiting the economy. History shows that economies can thrive even with progressive tax systems, as long as the funds are used effectively."
+  },
+  "67": {
+    "id": 67,
+    "topic": 13,
+    "question": "From a moral standpoint, do you think it is fair to impose higher taxes on the wealthy when many of them contribute significantly to charitable and faith-based causes? (Religious Traditionalist)",
+    "answer1": "From a moral standpoint, it is fair to impose higher taxes on the wealthy because societal obligations should not be outsourced to charity. While their contributions to charitable and faith-based causes are commendable, taxation ensures equitable distribution of resources and funds public services that benefit everyone, not just those favored by private philanthropy. Justice and collective responsibility should not depend on the whims of the wealthy.",
+    "answer2": "No, it is not morally fair to impose higher taxes on the wealthy when they already contribute significantly to charitable and faith-based causes. Their generosity often addresses needs more efficiently than government programs, and higher taxes could discourage such virtuous giving. Faith and personal responsibility should guide wealth distribution, not forced redistribution by the state."
+  },
+  "68": {
+    "id": 68,
+    "topic": 13,
+    "question": "Wouldn’t excessive taxation on high earners lead to capital flight and stifle innovation, especially in tech-driven industries? (Tech Libertarian)",
+    "answer1": {
+      "response": "Excessive taxation on high earners is a necessary measure to address income inequality and fund public services. While concerns about capital flight and stifled innovation are valid, progressive taxation can be designed with incentives for reinvestment in local economies and R&D. Countries with higher taxes often still thrive in innovation due to strong infrastructure, education, and social safety nets that foster long-term growth.",
+      "perspective": "Progressive Taxation Advocate"
+    },
+    "answer2": {
+      "response": "Heavy taxation on high earners absolutely risks driving talent and capital abroad, particularly in tech where mobility is high. Innovation thrives in low-tax environments where entrepreneurs can retain more of their earnings to reinvest. Over-taxation disincentivizes risk-taking and could push the next Silicon Valley to emerge in more business-friendly jurisdictions, harming domestic growth.",
+      "perspective": "Free-Market Libertarian"
+    }
+  },
+  "69": {
+    "id": 69,
+    "topic": 13,
+    "question": "Do you think taxing the wealthy more heavily is a way to hold elites accountable, or does it risk hurting small businesses in rural areas? (Rural Populist)",
+    "answer1": "Taxing the wealthy more heavily is absolutely necessary to hold elites accountable. The wealth gap has grown out of control, and rural communities are suffering because of it. The elites have rigged the system in their favor, leaving small businesses and working-class families to struggle. By taxing the wealthy at a higher rate, we can reinvest in rural infrastructure, education, and healthcare, which will ultimately help small businesses thrive. The idea that this would hurt rural small businesses is a myth pushed by those who benefit from the status quo.",
+    "answer2": "Heavier taxes on the wealthy might sound fair, but they often end up hurting small businesses in rural areas the most. Many rural entrepreneurs and family-owned businesses are classified as 'wealthy' due to their assets, even if their cash flow is tight. Higher taxes could force them to cut jobs or even shut down, devastating local economies. Instead of punishing success, we should focus on reducing regulations and creating incentives for rural businesses to grow. True accountability for elites should come from closing loopholes, not blanket tax hikes that harm hardworking Americans."
+  },
+  "70": {
+    "id": 70,
+    "topic": 14,
+    "question": "How do you think free college education would impact marginalized communities, and what additional policies should accompany it to ensure equity?",
+    "answer1": {
+      "impact": "Free college education would significantly benefit marginalized communities by removing financial barriers to higher education, enabling more individuals from low-income backgrounds to pursue degrees and improve their socioeconomic status. This could lead to greater diversity in professional fields and reduce systemic inequalities.",
+      "additional_policies": "To ensure equity, free college should be accompanied by policies such as targeted outreach programs for underrepresented groups, mentorship initiatives, and financial support for living expenses. Additionally, reforms in K-12 education to address disparities in preparation for college are essential."
+    },
+    "answer2": {
+      "impact": "While free college education sounds appealing, it may not address the root causes of marginalization and could disproportionately benefit middle- and upper-class students who are already more likely to attend college. Without addressing systemic issues like underfunded K-12 schools, free college might perpetuate existing inequalities.",
+      "additional_policies": "Instead of focusing solely on free college, policies should prioritize universal early childhood education, increased funding for public schools in marginalized areas, and vocational training programs. These measures would create a more equitable foundation before higher education even becomes a consideration."
+    }
+  },
+  "71": {
+    "id": 71,
+    "topic": 14,
+    "question": "Do you believe taxpayer-funded college education is a sustainable economic model, or would it discourage personal responsibility and fiscal discipline?",
+    "answer1": "Taxpayer-funded college education is a sustainable economic model that promotes equality and long-term economic growth. By removing financial barriers, it ensures that all individuals, regardless of socioeconomic background, have access to higher education. This leads to a more skilled workforce, higher productivity, and reduced income inequality. Personal responsibility and fiscal discipline can still be encouraged through other means, such as requiring students to maintain a certain GPA or participate in community service.",
+    "answer2": "Taxpayer-funded college education discourages personal responsibility and fiscal discipline by creating a sense of entitlement and reducing the incentive for students to make cost-effective educational choices. It places an unsustainable burden on taxpayers, many of whom may not have attended college themselves. Instead of universal free education, targeted scholarships and income-based repayment plans would better balance accessibility with individual accountability."
+  },
+  "72": {
+    "id": 72,
+    "topic": 14,
+    "question": "Should religious institutions have a role in shaping higher education policy if college becomes publicly funded, or should they remain separate?",
+    "answer1": "Religious institutions should have a role in shaping higher education policy, even if college becomes publicly funded, because they bring moral and ethical perspectives that are essential for holistic education. Many universities were originally founded by religious organizations, and their values can contribute to a well-rounded academic environment that respects diverse worldviews while fostering spiritual growth alongside intellectual development.",
+    "answer2": "Religious institutions should remain separate from higher education policy, especially in a publicly funded system, to ensure secularism and prevent the imposition of specific religious doctrines on students. Public education must remain neutral to respect the diversity of beliefs and avoid privileging one faith over another, which could alienate or marginalize students and faculty who do not share those religious views."
+  },
+  "73": {
+    "id": 73,
+    "topic": 14,
+    "question": "Would a government-funded college system lead to excessive bureaucracy and reduced innovation in education, or could it be structured to preserve academic freedom?",
+    "answer1": "A government-funded college system would inevitably lead to excessive bureaucracy and stifle innovation. Centralized control often results in rigid policies, slow decision-making, and a one-size-fits-all approach that undermines academic freedom. History shows that state-run institutions tend to prioritize political agendas over educational excellence, discouraging creativity and critical thinking. Without competition, there's little incentive to innovate, leading to stagnation in curriculum development and research.",
+    "answer2": "A government-funded college system can be structured to preserve academic freedom while reducing financial barriers to education. By implementing decentralized governance models, such as independent oversight boards and faculty-led decision-making, bureaucracy can be minimized. Many countries with public higher education systems, like Germany and Finland, maintain high levels of innovation and academic excellence. Proper safeguards and funding mechanisms can ensure that institutions remain dynamic, responsive, and free from political interference."
+  },
+  "74": {
+    "id": 74,
+    "topic": 14,
+    "question": "How would free college education benefit or harm rural communities, and should trade schools or vocational training be prioritized over traditional degrees?",
+    "answer1": {
+      "benefits": "Free college education would empower rural communities by providing access to higher education, reducing financial barriers, and enabling more students to pursue careers that require degrees. This could lead to a more skilled workforce, attracting businesses and boosting local economies.",
+      "harms": "However, it might also lead to a 'brain drain' where educated individuals leave rural areas for urban opportunities, further depopulating these regions. Additionally, overemphasis on traditional degrees could undervalue vocational skills that are critical in rural economies.",
+      "priority": "Trade schools and vocational training should be prioritized in rural areas because they align more closely with local job markets (e.g., agriculture, trades, and manufacturing). This would ensure students gain practical skills that directly benefit their communities."
+    },
+    "answer2": {
+      "benefits": "Free college education could harm rural communities by diverting resources away from K-12 schools and vocational programs that are more immediately beneficial. Rural areas often lack the infrastructure to support higher education institutions, making traditional degrees less practical.",
+      "harms": "It might also create unrealistic expectations, as many rural jobs don't require degrees, leading to underemployment or student debt if free education policies are reversed. Prioritizing traditional degrees could worsen labor shortages in essential trades.",
+      "priority": "Trade schools and vocational training should absolutely be prioritized over traditional degrees in rural communities. These programs are shorter, cheaper, and more likely to result in stable, well-paying jobs that align with rural economic needs."
+    }
+  },
+  "75": {
+    "id": 75,
+    "topic": 15,
+    "question": "How do you feel about social media platforms removing content labeled as 'misinformation' or 'hate speech,' especially when it involves marginalized communities? Do you see this as necessary protection or overreach?",
+    "answer1": {
+      "stance": "Necessary protection",
+      "reasoning": "Social media platforms have a responsibility to create safe spaces for all users, especially marginalized communities who are often targeted by misinformation and hate speech. Removing such content helps prevent harm, reduces the spread of dangerous ideologies, and fosters a more inclusive online environment. This is a proactive measure to protect vulnerable groups from harassment and violence."
+    },
+    "answer2": {
+      "stance": "Overreach",
+      "reasoning": "While the intention to protect marginalized communities is commendable, the removal of content labeled as 'misinformation' or 'hate speech' often leads to censorship and stifles free speech. The criteria for such removals are frequently vague and inconsistently applied, which can result in biased enforcement. This overreach risks silencing legitimate discourse and dissent under the guise of protection."
+    }
+  },
+  "76": {
+    "id": 76,
+    "topic": 15,
+    "question": "Do you believe that social media censorship disproportionately targets conservative voices, or is it a necessary measure to prevent harmful content? How should platforms balance free speech with moderation?",
+    "answer1": "Yes, social media censorship disproportionately targets conservative voices. Many platforms have been accused of bias, with conservative content being flagged or removed more frequently than liberal content, even when it doesn't violate policies. This undermines free speech and creates an uneven playing field for political discourse. Platforms should strive for transparency and neutrality, applying moderation rules equally to all users regardless of political affiliation.",
+    "answer2": "No, social media censorship is a necessary measure to prevent harmful content, including misinformation, hate speech, and incitements to violence. Conservative voices are not disproportionately targeted; rather, they are often subject to moderation because some of their content violates platform policies. Free speech is important, but it shouldn't come at the expense of public safety. Platforms must balance these concerns by enforcing clear, consistent rules while allowing for appeals and dialogue."
+  },
+  "77": {
+    "id": 77,
+    "topic": 15,
+    "question": "From a religious perspective, should social media companies have the authority to censor content that contradicts traditional moral values (e.g., LGBTQ+ advocacy)? Or does this violate freedom of expression?",
+    "answer1": "From a religious perspective, social media companies should have the authority to censor content that contradicts traditional moral values, such as LGBTQ+ advocacy. Many faiths uphold specific moral teachings, and allowing content that opposes these values can undermine religious communities and lead to moral decay. Protecting these values aligns with the duty of believers to uphold divine principles, even in digital spaces. While freedom of expression is important, it should not come at the expense of sacred truths and societal harmony.",
+    "answer2": "Censoring content that contradicts traditional moral values, such as LGBTQ+ advocacy, violates the fundamental right to freedom of expression—a principle respected in many religious traditions that value open dialogue and individual conscience. Social media platforms should remain neutral spaces where diverse viewpoints, including those that challenge traditional norms, can coexist. Suppressing differing perspectives under the guise of religious morality risks discrimination and stifles progress toward a more inclusive society, which many faiths also advocate for through teachings on compassion and justice."
+  },
+  "78": {
+    "id": 78,
+    "topic": 15,
+    "question": "As someone who values free speech and minimal government intervention, do you think decentralized platforms (e.g., blockchain-based social media) are the solution to censorship concerns? Why or why not?",
+    "answer1": {
+      "response": "Yes, decentralized platforms are the ideal solution to censorship concerns because they eliminate centralized control, ensuring that no single entity can suppress speech. Blockchain technology empowers users by giving them ownership of their data and content, aligning perfectly with the principles of free speech and minimal government intervention. Censorship-resistant platforms foster open dialogue and innovation without the risk of arbitrary bans or deplatforming.",
+      "reasoning": "Decentralization inherently resists censorship by distributing power across a network, making it nearly impossible for governments or corporations to silence dissenting voices. This aligns with libertarian and free-market ideals where individual autonomy is prioritized over top-down control."
+    },
+    "answer2": {
+      "response": "No, decentralized platforms are not a practical solution to censorship concerns because they often lack accountability and moderation, enabling harmful content like hate speech, misinformation, and illegal activities to flourish. While they may avoid government censorship, they create environments where abuse goes unchecked, ultimately undermining trust and safety. Some level of centralized oversight is necessary to balance free speech with societal well-being.",
+      "reasoning": "Complete decentralization can lead to chaos, as seen in unmoderated forums where toxic behavior thrives. Governments and institutions exist partly to protect citizens from harm, and entirely removing safeguards risks exacerbating societal divisions or enabling criminal behavior under the guise of 'free speech.'"
+    }
+  },
+  "79": {
+    "id": 79,
+    "topic": 15,
+    "question": "Do you trust tech companies to fairly moderate political content, or do you see their censorship efforts as biased against working-class and rural viewpoints? Should governments regulate this?",
+    "answer1": "Tech companies have made significant efforts to moderate political content fairly, using algorithms and human reviewers to minimize bias. While mistakes happen, their policies are generally designed to promote balanced discourse. Government regulation could stifle innovation and free speech, so self-regulation with transparency is the better approach.",
+    "answer2": "Tech companies consistently demonstrate bias against working-class and rural viewpoints, silencing voices that challenge mainstream narratives. Their moderation policies favor elite interests, making government regulation necessary to ensure fairness and prevent the suppression of dissenting opinions."
+  },
+  "80": {
+    "id": 80,
+    "topic": 16,
+    "question": "As a Progressive Activist, how do you weigh the potential of nuclear energy to reduce carbon emissions against concerns about radioactive waste and environmental justice for communities near nuclear facilities?",
+    "answer1": "As a Progressive Activist, I believe nuclear energy is a critical tool in the fight against climate change. While concerns about radioactive waste and environmental justice are valid, modern nuclear technology has made significant strides in safety and waste management. We must prioritize decarbonization to protect vulnerable communities from the immediate threats of fossil fuels, and nuclear energy offers a reliable, low-carbon alternative. Environmental justice can be addressed through stringent regulations, community engagement, and equitable siting of facilities.",
+    "answer2": "As a Progressive Activist, I oppose nuclear energy as a false solution to climate change. The risks of radioactive waste, which remains hazardous for thousands of years, disproportionately burden marginalized communities near nuclear facilities. Instead of investing in dangerous and expensive nuclear projects, we should focus on renewable energy like wind and solar, which are safer, cheaper, and more just. Environmental justice demands we reject nuclear energy and center solutions that don’t perpetuate harm to frontline communities."
+  },
+  "81": {
+    "id": 81,
+    "topic": 16,
+    "question": "As a Conservative Business Owner, do you see nuclear energy as a viable free-market solution to energy independence, or do regulatory and liability concerns make it too risky for private investment?",
+    "answer1": "As a conservative business owner, I firmly believe nuclear energy is a viable free-market solution to energy independence. Nuclear power provides a reliable, high-output energy source that can reduce our dependence on foreign oil and unstable energy markets. The private sector, with proper incentives and streamlined regulations, can manage the risks effectively. Innovation in modular reactors and waste management technologies further enhances its appeal. Government should reduce bureaucratic hurdles to unleash private investment in this critical sector.",
+    "answer2": "While nuclear energy has potential, the regulatory and liability concerns make it too risky for private investment without substantial government backing. The high upfront costs, long payback periods, and catastrophic risks associated with accidents or waste disposal deter conservative business owners who prioritize fiscal responsibility and risk mitigation. Until there are clear reforms in liability caps and regulatory efficiency, most private investors will view nuclear energy as a non-viable free-market solution."
+  },
+  "82": {
+    "id": 82,
+    "topic": 16,
+    "question": "As a Religious Traditionalist, do you believe nuclear energy aligns with the ethical responsibility to steward the Earth, or do the risks of accidents and long-term waste storage conflict with moral obligations to future generations?",
+    "answer1": {
+      "stance": "Nuclear energy aligns with ethical stewardship",
+      "argument": "As a Religious Traditionalist, I believe that nuclear energy is a gift of human ingenuity that allows us to responsibly steward the Earth's resources. It provides clean, efficient energy with minimal environmental disruption compared to fossil fuels, aligning with the moral duty to care for creation. The risks of accidents and waste storage are manageable through technological advancements and strict ethical oversight, ensuring we do not burden future generations."
+    },
+    "answer2": {
+      "stance": "Nuclear energy conflicts with moral obligations to future generations",
+      "argument": "From a Religious Traditionalist perspective, the long-term dangers of nuclear energy—such as catastrophic accidents and the unresolved issue of radioactive waste storage—violate our ethical responsibility to protect future generations. The Bible calls us to be faithful stewards, and the irreversible harm posed by nuclear waste, which remains hazardous for millennia, is a clear moral failing. We must prioritize safer, renewable alternatives that honor our duty to both the Earth and our descendants."
+    }
+  },
+  "83": {
+    "id": 83,
+    "topic": 16,
+    "question": "As a Tech Libertarian, should nuclear energy development be driven by private innovation with minimal government oversight, or do the risks require strict regulatory frameworks to ensure safety?",
+    "answer1": "As a Tech Libertarian, I firmly believe that nuclear energy development should be driven by private innovation with minimal government oversight. The free market is the most efficient mechanism for advancing technology and ensuring safety, as companies have a direct incentive to avoid accidents to protect their reputation and profitability. Excessive regulation stifles innovation and delays the deployment of safer, next-generation nuclear technologies. Private competition will naturally lead to higher safety standards and more efficient solutions without bureaucratic inefficiencies.",
+    "answer2": "While I generally support private innovation, nuclear energy is a unique case where the risks are too catastrophic to leave solely to the free market. Strict regulatory frameworks are essential to ensure safety, as the consequences of a nuclear accident can be devastating and far-reaching, affecting generations. Private companies may cut corners to maximize profits, and the market alone cannot account for the long-term environmental and public health risks. Government oversight is necessary to enforce rigorous safety standards and hold companies accountable, even if it slows down innovation."
+  },
+  "84": {
+    "id": 84,
+    "topic": 16,
+    "question": "As a Rural Populist, would you support nuclear power plants in your area as a source of jobs and energy independence, or do you distrust corporate and government assurances about safety?",
+    "answer1": "As a Rural Populist, I fully support nuclear power plants in our area because they bring high-paying jobs, boost local economies, and reduce our dependence on foreign energy. Corporate and government safety assurances are backed by decades of scientific research and strict regulations. We can't let fear hold us back from progress and energy independence.",
+    "answer2": "As a Rural Populist, I deeply distrust corporate and government promises about nuclear safety. History has shown us disasters like Chernobyl and Fukushima—why risk our land, health, and future for temporary jobs? We should invest in renewable energy like wind and solar, which are safer and don’t leave toxic legacies for generations."
+  },
+  "85": {
+    "id": 85,
+    "topic": 17,
+    "question": "How can patriotism be reconciled with acknowledging the historical harms caused by nationalism, such as colonialism or systemic discrimination?",
+    "answer1": "Patriotism can be reconciled with acknowledging historical harms by fostering a love for one's country that is rooted in honesty and growth. True patriotism involves recognizing past injustices, learning from them, and working to create a more equitable society. This approach allows citizens to celebrate their nation's achievements while also holding it accountable for its mistakes, ensuring that patriotism evolves into a force for positive change rather than blind loyalty.",
+    "answer2": "Patriotism and nationalism are often conflated, but they are fundamentally different. Nationalism tends to justify historical harms like colonialism and discrimination as necessary for national greatness, while patriotism should reject such justifications. To reconcile patriotism with these harms, one must critically distance themselves from nationalist narratives and instead embrace a patriotism that prioritizes justice, reparations, and the dismantling of systems built on oppression. Anything less risks perpetuating the same harms under a different name."
+  },
+  "86": {
+    "id": 86,
+    "topic": 17,
+    "question": "Should businesses be expected to promote patriotic values, or does that risk alienating diverse customers and employees?",
+    "answer1": "Businesses should absolutely promote patriotic values as it fosters national unity and pride. A strong sense of patriotism can enhance employee morale and attract customers who value loyalty to their country. Avoiding this responsibility risks appearing indifferent to national identity, which could alienate core supporters.",
+    "answer2": "Businesses should avoid promoting patriotic values to maintain inclusivity and respect for diverse perspectives. Forcing patriotism can alienate employees and customers who may not share the same nationalistic sentiments or who come from different cultural backgrounds. Neutrality ensures a welcoming environment for all."
+  },
+  "87": {
+    "id": 87,
+    "topic": 17,
+    "question": "Does true patriotism require adherence to religious and traditional values, or can secular and progressive interpretations coexist?",
+    "answer1": "True patriotism inherently requires adherence to religious and traditional values, as these are the foundational pillars of a nation's identity and cultural heritage. Secular and progressive interpretations often undermine these values, leading to societal fragmentation and a loss of collective moral compass. A patriot must uphold the traditions and beliefs that have historically united the people and shaped the nation's character.",
+    "answer2": "Patriotism is not confined to religious or traditional values; it can thrive in secular and progressive frameworks as well. A nation's strength lies in its ability to evolve and embrace diversity, including differing beliefs and modern ideals. True patriotism is about commitment to the country's well-being and future, which can be achieved through inclusive, forward-thinking policies that respect all citizens, regardless of their cultural or religious backgrounds."
+  },
+  "88": {
+    "id": 88,
+    "topic": 17,
+    "question": "Is patriotism compatible with a libertarian belief in minimal government, or does it inherently require state-driven narratives?",
+    "answer1": "Patriotism is entirely compatible with libertarian beliefs in minimal government because true patriotism is about love for one's country and its people, not allegiance to the state. Libertarians argue that patriotism can thrive in a society where individuals are free to express their values and traditions without government coercion. The state-driven narratives often associated with patriotism are not inherent to the concept but are tools used by governments to consolidate power. A libertarian approach would allow patriotism to emerge organically from voluntary associations and cultural pride, not state mandates.",
+    "answer2": "Patriotism inherently requires state-driven narratives to sustain a unified national identity, making it incompatible with strict libertarian minimalism. Without state institutions promoting shared symbols, history, and values, patriotism risks becoming fragmented or diluted. Libertarians may champion individual freedom, but a cohesive sense of national belonging often depends on state-funded education, memorials, and rituals. A minimal government could lead to a vacuum where competing ideologies or local identities overshadow patriotism, undermining the collective solidarity that many believe is essential for a nation's survival."
+  },
+  "89": {
+    "id": 89,
+    "topic": 17,
+    "question": "Can patriotism be inclusive of marginalized communities while still maintaining a strong national identity, or does it inevitably exclude some groups?",
+    "answer1": "Yes, patriotism can be inclusive of marginalized communities while maintaining a strong national identity. True patriotism is about celebrating the diverse contributions of all groups to the nation's history and culture. By acknowledging and addressing past injustices, a nation can foster unity and pride that includes everyone, reinforcing a shared identity without exclusion.",
+    "answer2": "No, patriotism often excludes marginalized communities because it tends to prioritize a dominant cultural or ethnic narrative. Strong national identity is frequently built on historical myths that overlook or suppress the struggles of minority groups, making it difficult for them to feel fully included or represented in patriotic discourse."
+  },
+  "90": {
+    "id": 90,
+    "topic": 18,
+    "question": "How do you think feminism has impacted traditional gender roles in modern society, and do you see this as a positive or negative change? (Target: Religious Traditionalist)",
+    "answer1": "Feminism has severely disrupted traditional gender roles, which were divinely ordained for the harmony of society. By encouraging women to prioritize careers over family and challenging male leadership, feminism has led to moral decay and broken homes. This is a negative change that goes against the natural order established by God.",
+    "answer2": "While feminism has challenged traditional gender roles, it has also brought positive changes by empowering women to fulfill their God-given potential beyond the home. It encourages mutual respect and partnership between men and women, aligning with the biblical principle of love and equality. This shift can be seen as a positive evolution of traditional values."
+  },
+  "91": {
+    "id": 91,
+    "topic": 18,
+    "question": "Many argue that corporate policies promoting gender equality (e.g., diversity quotas) are necessary, while others see them as government overreach. Where do you stand? (Target: Conservative Business Owner)",
+    "answer1": "As a conservative business owner, I believe that corporate policies promoting gender equality, especially diversity quotas, are unnecessary government overreach. Businesses should have the freedom to hire and promote based on merit and fit for the role, not to meet arbitrary quotas. Forced diversity can undermine workplace morale and create resentment among employees who feel they were hired or promoted for reasons other than their qualifications. The free market should dictate hiring practices, not government mandates.",
+    "answer2": "While I generally lean conservative, I recognize that corporate policies promoting gender equality, including diversity quotas, can be beneficial in certain contexts. Historically, many industries have been dominated by one gender, often unintentionally excluding qualified candidates from underrepresented groups. Quotas can help level the playing field and ensure that talented individuals aren't overlooked due to unconscious bias. However, these policies should be implemented carefully to avoid reverse discrimination and should eventually transition to merit-based systems once equality is achieved."
+  },
+  "92": {
+    "id": 92,
+    "topic": 18,
+    "question": "Some believe that feminism has gone too far in challenging gender norms, while others argue it hasn't gone far enough. What’s your take? (Target: Anti-Woke Centrist)",
+    "answer1": "Feminism has indeed gone too far in some areas, particularly when it dismisses biological differences between men and women or vilifies traditional gender roles that many people still find fulfilling. While equality is important, the movement sometimes alienates moderates by pushing extreme agendas like dismantling the nuclear family or promoting policies that unfairly disadvantage men in areas like child custody or workplace accusations. A balanced approach would acknowledge progress made while respecting individual choices rather than enforcing ideological conformity.",
+    "answer2": "Feminism hasn't gone far enough because systemic inequalities still persist—women earn less, face disproportionate caregiving burdens, and are underrepresented in leadership. The backlash against 'going too far' often stems from discomfort with challenging deep-seated norms, but real progress requires dismantling these structures. Criticizing feminism as 'too extreme' ignores how entrenched patriarchy remains; the movement must keep pushing until true equity is achieved, even if it unsettles traditionalists."
+  },
+  "93": {
+    "id": 93,
+    "topic": 18,
+    "question": "How do you reconcile feminist critiques of patriarchy with the pushback from those who see traditional gender roles as natural or beneficial? (Target: Feminist Scholar)",
+    "answer1": "Feminist critiques of patriarchy are essential for dismantling systemic inequalities that have historically oppressed women and marginalized genders. The pushback from those who advocate for traditional gender roles often stems from a fear of losing privilege or a misunderstanding of gender as a social construct rather than a biological imperative. Feminist scholarship demonstrates that what is deemed 'natural' is often a cultural artifact designed to maintain power hierarchies. The reconciliation lies in education and dialogue that highlight the fluidity of gender roles across cultures and histories, showing that tradition is not synonymous with fairness or justice.",
+    "answer2": "The tension between feminist critiques and traditionalist views reflects a deeper ideological divide about the purpose of society. Traditional gender roles have provided stability and clear expectations for centuries, and many argue that they are biologically rooted in human evolution. Feminist critiques, while valuable in addressing certain inequities, often overlook the benefits of these roles, such as complementary strengths in partnerships and the nurturing of family structures. Reconciliation requires acknowledging that both perspectives have merit—feminism can address oppression without wholly rejecting traditions that some find meaningful and fulfilling."
+  },
+  "94": {
+    "id": 94,
+    "topic": 18,
+    "question": "Do you think feminism has helped or harmed working-class men, particularly in rural areas where traditional masculinity is highly valued? (Target: Rural Populist)",
+    "answer1": "Feminism has harmed working-class men in rural areas by undermining traditional masculinity and destabilizing the family unit. In these communities, men are often expected to be providers and protectors, but feminist ideals have devalued these roles, leaving many men feeling emasculated and directionless. The push for gender equality in the workplace has also led to job competition and economic insecurity for men who once held stable, male-dominated jobs. Rural populists see this as an attack on their way of life.",
+    "answer2": "Feminism has helped working-class men in rural areas by challenging rigid gender roles that trap them in toxic expectations. Traditional masculinity often pressures men to suppress emotions and take on dangerous, high-stress jobs, leading to poor mental health and shorter lifespans. Feminism encourages a more balanced society where men can seek fulfilling work outside of stereotypical roles and share caregiving responsibilities. This shift can lead to stronger families and healthier communities, even in conservative areas."
+  },
+  "95": {
+    "id": 95,
+    "topic": 19,
+    "question": "How do you reconcile the need for public health safety with concerns about government overreach in enforcing vaccine mandates? (For Conservative Business Owner and Tech Libertarian)",
+    "answer1": "As a conservative business owner, I believe in personal responsibility and limited government intervention. Public health safety is important, but it should not come at the expense of individual freedoms. Vaccine mandates are a form of government overreach that undermines personal choice and could set a dangerous precedent for future intrusions. Instead, we should focus on educating the public about the benefits of vaccines and allowing businesses to set their own policies without government coercion. This way, we balance public health with respect for individual liberties.",
+    "answer2": "From a tech libertarian perspective, the enforcement of vaccine mandates is a clear violation of bodily autonomy and personal freedom. The government has no right to dictate medical decisions to individuals, no matter the public health justification. A better approach would be to leverage technology and decentralized systems—such as voluntary vaccine passports or private-sector solutions—to allow people to make informed choices without top-down mandates. Public health can be achieved through innovation and voluntary cooperation, not authoritarian measures."
+  },
+  "96": {
+    "id": 96,
+    "topic": 19,
+    "question": "Do you believe vaccine mandates disproportionately impact marginalized communities, and how should policymakers address these concerns? (For Progressive Activist and Urban Socialist)",
+    "answer1": "Vaccine mandates are a necessary public health measure, but they can disproportionately impact marginalized communities due to systemic barriers like lack of access to healthcare, transportation, or paid sick leave. Policymakers must address these disparities by pairing mandates with robust support systems—free and accessible vaccination sites, paid time off for vaccination and recovery, and community outreach programs led by trusted local leaders. Without these measures, mandates risk exacerbating existing inequalities.",
+    "answer2": "Vaccine mandates are inherently oppressive and reflect a top-down approach that ignores the material conditions of marginalized communities. Forcing mandates without addressing structural inequities—such as healthcare deserts, poverty, or distrust in a historically exploitative medical system—only punishes the vulnerable. Policymakers should prioritize redistributive policies (universal healthcare, housing, and living wages) over coercive measures, which disproportionately target Black, Brown, and low-income people under the guise of public health."
+  },
+  "97": {
+    "id": 97,
+    "topic": 19,
+    "question": "From a religious or moral standpoint, should individuals have the right to refuse vaccines based on personal beliefs, even during a public health crisis? (For Religious Traditionalist and Feminist Scholar)",
+    "answer1": "From a religious traditionalist perspective, individuals should indeed have the right to refuse vaccines based on personal beliefs, even during a public health crisis. Many religious traditions emphasize the sanctity of personal conscience and the importance of adhering to divine or spiritual principles over secular mandates. For example, some faiths may oppose certain medical interventions due to concerns about the use of fetal cells or other morally contentious components in vaccine development. Governments should respect these deeply held convictions, as forcing vaccinations could be seen as an infringement on religious freedom and bodily autonomy, which are fundamental human rights.",
+    "answer2": "From a feminist scholar's standpoint, the right to refuse vaccines based on personal beliefs must be critically examined, especially during a public health crisis. While autonomy over one's body is a core feminist principle, this autonomy cannot be absolute when it endangers collective well-being. Public health measures, including vaccines, are often essential to protect vulnerable populations, including women, children, and marginalized groups who may bear the brunt of preventable diseases. Allowing unchecked vaccine refusal under the guise of personal belief can perpetuate systemic inequities and undermine efforts to achieve communal health justice. Thus, while individual rights matter, they must be balanced with societal responsibility."
+  },
+  "98": {
+    "id": 98,
+    "topic": 19,
+    "question": "Given your distrust of elites and institutions, how do you weigh the risks of vaccine mandates against the benefits of herd immunity? (For Rural Populist and Climate Change Skeptic)",
+    "answer1": "Vaccine mandates are just another way for the elites to control rural and working-class folks. They don’t care about our health—they care about power. Herd immunity sounds nice, but why should we trust the same institutions that have lied to us about everything from trade deals to climate change? The risks of forced vaccination, like losing personal freedom or suffering unknown long-term effects, far outweigh the supposed benefits. We’ve survived diseases before without mandates, and we’ll do it again.",
+    "answer2": "Herd immunity is a myth pushed by big pharma and globalist elites to justify stripping away our rights. Look at the data—natural immunity from prior infection is just as good, if not better, than these rushed vaccines. Mandates are a slippery slope; next thing you know, they’ll be forcing us to comply with climate lockdowns or carbon taxes. Rural communities know how to take care of themselves without interference from corrupt bureaucrats and their corporate allies."
+  },
+  "99": {
+    "id": 99,
+    "topic": 19,
+    "question": "As someone who values national security and discipline, do you see vaccine mandates as a necessary measure for collective safety or an infringement on personal freedoms? (For Military Veteran and Anti-Woke Centrist)",
+    "answer1": "As a military veteran and someone who values national security, I see vaccine mandates as a necessary measure for collective safety. Just like in the military, where discipline and adherence to protocols ensure the safety of the entire unit, vaccine mandates help protect the broader population from preventable diseases. Personal freedoms are important, but they must be balanced with the greater good—especially when public health is at risk. The military teaches us that individual sacrifices are sometimes required for the security and well-being of the whole.",
+    "answer2": "As an anti-woke centrist, I view vaccine mandates as an unacceptable infringement on personal freedoms. While public health is important, the government should not have the power to force medical decisions on individuals. The military operates under strict discipline, but civilian life should not be treated the same way. Mandates set a dangerous precedent for government overreach and erode trust in public institutions. Personal responsibility and informed choice—not coercion—should guide health decisions in a free society."
+  }
+}

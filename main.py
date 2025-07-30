@@ -1,8 +1,9 @@
 import os
 import json
 import re
-from typing import List
 
+import pandas as pd
+from typing import List
 from tqdm import tqdm
 from dotenv import load_dotenv
 from langchain_deepseek import ChatDeepSeek
@@ -36,12 +37,12 @@ def load_prompts(file_path: str) -> dict:
     with open(file_path, 'r') as file:
         return json.load(file)
 
-def load_json_data(file_path: str) -> dict:
+def load_json_data(file_path: str) -> dict | list:
     """Wczytuje dane JSON z pliku."""
     with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def init_llm(api_key: str) -> ChatDeepSeek:
+def init_llm() -> ChatDeepSeek:
     """Inicjalizuje model LLM DeepSeek Chat."""
     return ChatDeepSeek(model="deepseek-chat", api_key=api_key)
 
@@ -100,10 +101,10 @@ def generate_topics(people, llm: ChatDeepSeek, prompt: str) -> List[dict]:
     match = re.search(r"```json\n([\s\S]+?)```", response.content)
     if not match:
         raise ValueError("Nie znaleziono bloku kodu z listą JSON.")
-
     json_block = match.group(1).strip()
-
     data = json.loads(json_block)
+    for i, topic in enumerate(data):
+        topic["id"] = i
     return data
 
 def generate_questions(people, topics, llm: ChatDeepSeek, prompt: str) -> dict:
@@ -186,6 +187,52 @@ def generate_preferences(people, answers, prompt, llm: ChatDeepSeek) -> List[dic
             responses.append(curr_item)
     return responses
 
+def parse_preference(pref):
+    if "A" == pref.strip():
+        return 1
+    if "B" == pref.strip():
+        return 2
+    return pref
+
+
+def prepare_record(topic, item):
+    """Przygotowuje rekord do zapisu w ostatecznym formacie CSV."""
+    persona = item["person"]
+    question = item["question"]
+    record = {
+        "person_id": persona["id"],
+        "person_name": persona["persona"],
+        "person_short_description": persona["description"],
+        "person_long_description": persona["long_description"],
+        "topic_id": topic["id"],
+        "topic": topic["topic"],
+        "topic_description": topic["description"],
+        "question_id": question["id"],
+        "question": question["question"],
+        "answer1": question["answer1"],
+        "answer2": question["answer2"],
+        "raw_preference": item["response"],
+        "preferred_answer": parse_preference(item["response"])
+    }
+    if not isinstance(record["preferred_answer"], int):
+        print(record["preferred_answer"])
+        return None
+    return record
+
+
+def convert_to_csv(data, topics):
+    """Konwertuje dane do formatu CSV."""
+    topic_mapper = {topic["id"]: topic for topic in topics}
+    records = []
+    for item in tqdm(data):
+        topic = topic_mapper[item["question"]["topic"]]
+        record = prepare_record(topic, item)
+        if record:
+            records.append(record)
+    df = pd.DataFrame(data=records)
+    return df
+
+
 def maybe_generate_personas(prompts, config, llm):
     """Generuje persony, jeśli jest to wymagane przez konfigurację."""
     if config["personas"]:
@@ -244,9 +291,9 @@ def maybe_generate_answers(prompts, personas, config, questions, llm):
         answer_prompt = prompts["answers_prompt"]
         answers = generate_answers(answer_prompt, personas, questions, llm)
         parsed_answers = parse_answers(answers)
-        save_to_file(parsed_answers, "data/answears.json")
+        save_to_file(parsed_answers, "data/answers.json")
     else:
-        parsed_answers = load_json_data("data/answears.json")
+        parsed_answers = load_json_data("data/answers.json")
         if not questions:
             raise ValueError("Nie znaleziono pliku z odpowiedziami. Upewnij się, że konfiguracja jest poprawna lub wygeneruj odpowiedzi.")
     return parsed_answers
@@ -256,7 +303,6 @@ def maybe_generate_preferences(personas, answers, prompts, config, llm):
     if config["preferences"]:
         print("Generowanie preferencji...")
         preference_prompt = prompts["preferences_prompt"]
-        answers = load_json_data("data/answears.json")
         preferences = generate_preferences(personas, answers, preference_prompt, llm)
         save_to_file(preferences, "data/preferences.json")
     else:
@@ -269,7 +315,7 @@ def main():
     """Główna funkcja programu."""
     api_key = load_api_key()
     prompts = load_prompts("prompts.json")
-    llm = init_llm(api_key)
+    llm = init_llm()
     config = load_config()
 
     personas = maybe_generate_personas(prompts, config, llm)
@@ -278,6 +324,10 @@ def main():
     questions = maybe_generate_questions(prompts, config, extend_personas, topics, llm)
     answers = maybe_generate_answers(prompts, personas, config, questions, llm)
     preferences = maybe_generate_preferences(extend_personas, answers, prompts, config, llm)
+
+    print("Konwersja danych do formatu CSV...")
+    final_df = convert_to_csv(preferences, topics)
+    final_df.to_csv("data/final_data.csv", index=False, encoding="utf-8")
 
 if __name__ == '__main__':
     main()

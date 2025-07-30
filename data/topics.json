@@ -1,82 +1,102 @@
 [
   {
     "topic": "Defunding the Police",
-    "description": "Reallocating police budgets to social services to address systemic issues vs. maintaining law enforcement funding for public safety."
+    "description": "Reallocating police budgets to social services and community programs.",
+    "id": 0
   },
   {
     "topic": "Universal Basic Income (UBI)",
-    "description": "Providing unconditional cash payments to all citizens to reduce poverty vs. concerns over dependency and economic feasibility."
+    "description": "Providing all citizens with a guaranteed income to reduce poverty.",
+    "id": 1
   },
   {
     "topic": "Abortion Rights",
-    "description": "Pro-choice arguments for bodily autonomy vs. pro-life arguments based on moral/religious beliefs."
-  },
-  {
-    "topic": "Climate Change Policies",
-    "description": "Urgent government action to reduce emissions vs. skepticism about economic impact and scientific consensus."
-  },
-  {
-    "topic": "Gun Control",
-    "description": "Stricter regulations to reduce gun violence vs. Second Amendment protections for self-defense and liberty."
-  },
-  {
-    "topic": "Cancel Culture",
-    "description": "Holding individuals accountable for offensive speech vs. concerns over free speech and ideological intolerance."
+    "description": "The legality and morality of abortion access.",
+    "id": 2
   },
   {
     "topic": "Same-Sex Marriage",
-    "description": "Support for LGBTQ+ rights and equality vs. opposition based on religious or traditional values."
+    "description": "Legal recognition and societal acceptance of LGBTQ+ marriages.",
+    "id": 3
+  },
+  {
+    "topic": "Climate Change Policies",
+    "description": "Government regulations to combat climate change vs. economic growth concerns.",
+    "id": 4
+  },
+  {
+    "topic": "Gun Control",
+    "description": "Stricter gun laws vs. Second Amendment protections.",
+    "id": 5
+  },
+  {
+    "topic": "Cancel Culture",
+    "description": "Public shaming and boycotts as a form of social accountability.",
+    "id": 6
   },
   {
     "topic": "Cryptocurrency Regulation",
-    "description": "Advocating for decentralized finance vs. calls for government oversight to prevent fraud and instability."
+    "description": "Government oversight vs. decentralized financial freedom.",
+    "id": 7
   },
   {
     "topic": "Affirmative Action",
-    "description": "Policies to address historical discrimination vs. arguments for meritocracy and reverse discrimination."
+    "description": "Race and gender-based preferences in hiring and education.",
+    "id": 8
   },
   {
     "topic": "Universal Healthcare",
-    "description": "Government-funded healthcare for all vs. concerns over costs, efficiency, and private sector alternatives."
+    "description": "Government-funded healthcare vs. private insurance systems.",
+    "id": 9
   },
   {
-    "topic": "Border Control & Immigration",
-    "description": "Strict enforcement to protect jobs and security vs. humanitarian approaches and economic benefits of immigration."
+    "topic": "Immigration Reform",
+    "description": "Border control policies and pathways to citizenship.",
+    "id": 10
   },
   {
-    "topic": "Critical Race Theory (CRT) in Schools",
-    "description": "Teaching systemic racism’s historical impact vs. opposition to 'divisive' or 'ideological' education."
+    "topic": "Patriarchy & Gender Roles",
+    "description": "Critiques of traditional gender structures and male dominance.",
+    "id": 11
   },
   {
-    "topic": "Transgender Rights in Sports",
-    "description": "Inclusion of trans athletes based on gender identity vs. concerns over fairness in competitive sports."
+    "topic": "Free College Tuition",
+    "description": "Taxpayer-funded higher education vs. student responsibility.",
+    "id": 12
   },
   {
-    "topic": "Taxation of the Wealthy",
-    "description": "Higher taxes on the rich to reduce inequality vs. arguments that it stifles investment and economic growth."
+    "topic": "Religious Freedom vs. LGBTQ+ Rights",
+    "description": "Balancing faith-based exemptions with anti-discrimination laws.",
+    "id": 13
   },
   {
-    "topic": "Free College Education",
-    "description": "Publicly funded higher education to reduce inequality vs. concerns over costs and personal responsibility."
+    "topic": "Nationalism vs. Globalism",
+    "description": "Prioritizing national sovereignty vs. international cooperation.",
+    "id": 14
   },
   {
-    "topic": "Social Media Censorship",
-    "description": "Platforms moderating misinformation/hate speech vs. concerns over free speech and political bias."
+    "topic": "Tech Censorship",
+    "description": "Social media moderation and free speech concerns.",
+    "id": 15
   },
   {
-    "topic": "Nuclear Energy",
-    "description": "Support as a clean energy alternative vs. opposition due to safety risks and waste disposal concerns."
+    "topic": "Critical Race Theory (CRT)",
+    "description": "Teaching systemic racism in schools and workplaces.",
+    "id": 16
   },
   {
-    "topic": "Patriotism & National Identity",
-    "description": "Celebrating national heritage vs. critiques of nationalism’s exclusionary or imperialist history."
+    "topic": "Military Spending",
+    "description": "Budget allocations for defense vs. domestic programs.",
+    "id": 17
   },
   {
-    "topic": "Feminism & Gender Roles",
-    "description": "Advocacy for gender equality vs. resistance from traditionalists or anti-feminist perspectives."
+    "topic": "Fossil Fuel Dependency",
+    "description": "Transitioning to renewable energy vs. protecting traditional industries.",
+    "id": 18
   },
   {
-    "topic": "Vaccine Mandates",
-    "description": "Government-enforced vaccination for public health vs. arguments for bodily autonomy and distrust of mandates."
+    "topic": "Reparations for Slavery",
+    "description": "Compensating descendants of enslaved people.",
+    "id": 19
   }
 ]
